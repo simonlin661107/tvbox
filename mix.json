@@ -2937,7 +2937,7 @@
       "key": "剧王短剧",
       "name": "剧王｜短剧",
       "type": 3,
-      "api": "./sources/qist_tvbox/py/剧王短剧.py",
+      "api": "./py/剧王短剧.py",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
@@ -2949,7 +2949,7 @@
       "key": "剧王短剧",
       "name": "剧王｜短剧",
       "type": 3,
-      "api": "./sources/qist_tvbox/xiaosa/py/剧王短剧.py",
+      "api": "./py/剧王短剧.py",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
@@ -3612,7 +3612,7 @@
       "key": "星芽短剧",
       "name": "星芽｜短剧",
       "type": 3,
-      "api": "./sources/qist_tvbox/py/星芽短剧.py",
+      "api": "./py/星芽短剧.py",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
@@ -3624,7 +3624,7 @@
       "key": "星芽短剧",
       "name": "星芽｜短剧",
       "type": 3,
-      "api": "./sources/qist_tvbox/xiaosa/py/星芽短剧.py",
+      "api": "./py/星芽短剧.py",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
@@ -3911,14 +3911,14 @@
       "key": "爱听音乐",
       "name": "爱听｜音乐",
       "type": 3,
-      "api": "./sources/qist_tvbox/py/爱听音乐.py",
+      "api": "./py/爱听音乐.py",
       "jar": "./jar/spider_1.jar;md5;a367b60be5d99c61ee013cbd0320f8e5"
     },
     {
       "key": "爱听音乐",
       "name": "爱听｜音乐",
       "type": 3,
-      "api": "./sources/qist_tvbox/xiaosa/py/爱听音乐.py",
+      "api": "./py/爱听音乐.py",
       "jar": "./jar/spider_1.jar;md5;a367b60be5d99c61ee013cbd0320f8e5"
     },
     {
@@ -4369,14 +4369,14 @@
       "key": "网络直播",
       "name": "网络｜直播",
       "type": 3,
-      "api": "./sources/qist_tvbox/py/网络直播.py",
+      "api": "./py/网络直播.py",
       "jar": "./jar/spider_1.jar;md5;a367b60be5d99c61ee013cbd0320f8e5"
     },
     {
       "key": "网络直播",
       "name": "网络｜直播",
       "type": 3,
-      "api": "./sources/qist_tvbox/xiaosa/py/网络直播.py",
+      "api": "./py/网络直播.py",
       "jar": "./jar/spider_1.jar;md5;a367b60be5d99c61ee013cbd0320f8e5"
     },
     {
