@@ -101,6 +101,16 @@
       "filterable": 0
     },
     {
+      "key": "爱看机器人",
+      "name": "爱看｜影视",
+      "type": 3,
+      "api": "csp_Ikanbot",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "./jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
+    },
+    {
       "key": "bfzy_json",
       "name": "暴风采集(JSON)",
       "type": 1,
@@ -135,5 +145,5 @@
   "parses": [],
   "flags": [],
   "rules": [],
-  "spider": "./wolong/jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
+  "spider": "./jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
 }
