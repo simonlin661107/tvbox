@@ -1,117 +1,117 @@
-# 已搬入 mix.json 的點播源紀錄（續搬時以 原始設定檔+原始key 判斷是否已搬過）
-# 欄位：資料夾（site_file/ 下；只用共用檔或直連 CMS 的站以括號註明）	mix.json key	名稱	原始設定檔(相對 TV_Box_Sources)	原始key	type	api	驗證結果	搬移日期	相同內容的其他原始來源
-site_file/kuyunxb	csp_XBiu_酷云	🍀酷云(XB)	2hacc_TVBox/h/h.json	csp_XBiu_酷云	3	csp_XBiubiu	分類+播放+搜尋	2026-11-09	
-（無引用檔，直連 CMS）	91md	🥈91md	2hacc_TVBox/h/h.json	91md	1	https://91md.me/api.php/provide/vod/from/mdm3u8/	分類+播放+搜尋	2026-11-09	
-（無引用檔，直連 CMS）	鲨鱼	🥈鲨鱼	2hacc_TVBox/h/h.json	鲨鱼	1	https://shayuapi.com/api.php/provide/vod/	分類+播放+搜尋	2026-11-09	qist_tvbox/99188.json:shayuapi.com
-site_file/300fenlei	csp_XYQHiker_300分类	300分类	2hacc_TVBox/h/h.json	csp_XYQHiker_300分类	3	csp_XYQHiker	分類+播放+搜尋	2026-11-09	
-（無引用檔，直連 CMS）	电影天堂	🎞️天堂┃采集	OK/OK.json	电影天堂	1	http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/	分類+播放+搜尋	2026-11-09	
-（僅引用 reference_file 共用檔）	Dm84	🚌巴士┃动漫	OK/jsm.json	Dm84	3	csp_Dm84Guard	分類+播放+搜尋	2026-11-09	OK/OK.json:动漫巴士,qist_tvbox/0821.json:Dm84,qist_tvbox/0826.json:Dm84,qist_tvbox/fty.json:Dm84
-（僅引用 reference_file 共用檔）	fyyy	飞宇影院	qist_tvbox/dianshi.json	fyyy	3	csp_XBPQ	分類+播放+搜尋	2026-11-09	OK/jsm.json:fyyy,qist_tvbox/jsm.json:fyyy,qist_tvbox/tools/dianshi.json:fyyy,qist_tvbox/tools/jsm.json:fyyy
-site_file/linghuapp	灵虎	灵虎｜APP	OK/jsm.json	灵虎	3	csp_AppGet	分類+播放+搜尋	2026-11-09	
-（僅引用 reference_file 共用檔）	YGP	🚀叨观荐影┃预告片	OK/jsm.json	YGP	3	csp_YGPGuard	分類+播放+搜尋	2026-11-09	qist_tvbox/0821.json:YGP,qist_tvbox/0826.json:YGP,qist_tvbox/367.json:update,qist_tvbox/fty.json:YGP
-（僅引用 reference_file 共用檔）	厂长	📔厂长┃不卡	OK/jsm.json	厂长	3	csp_NewCzGuard	分類+播放	2026-11-09	qist_tvbox/0821.json:厂长,qist_tvbox/0826.json:厂长,qist_tvbox/367.json:厂长,qist_tvbox/fty.json:厂长
-（僅引用 reference_file 共用檔）	糯米	🍓糯米┃秒播	OK/jsm.json	糯米	3	csp_NmyswvGuard	分類+播放	2026-11-09	qist_tvbox/0821.json:糯米,qist_tvbox/0826.json:糯米,qist_tvbox/367.json:糯米,qist_tvbox/fty.json:糯米
-（僅引用 reference_file 共用檔）	Lib	🌟立播┃秒播	OK/jsm.json	Lib	3	csp_LibvioGuard	分類+播放	2026-11-09	qist_tvbox/0821.json:Lib,qist_tvbox/0826.json:Lib
-（僅引用 reference_file 共用檔）	比特	🍄比特┃手机	OK/jsm.json	比特	3	csp_BttwooGuard	分類+播放+搜尋	2026-11-09	qist_tvbox/0821.json:比特,qist_tvbox/0826.json:比特,qist_tvbox/367.json:比特,qist_tvbox/fty.json:比特
-（僅引用 reference_file 共用檔）	奥特	🏝奥特┃多线	OK/jsm.json	奥特	3	csp_AueteGuard	分類+播放	2026-11-09	qist_tvbox/0821.json:奥特,qist_tvbox/0826.json:奥特,qist_tvbox/367.json:Auete
-（僅引用 reference_file 共用檔）	荐片	🐭荐片┃P2P	OK/jsm.json	荐片	3	csp_JPJGuard	分類+播放+搜尋	2026-11-09	qist_tvbox/0821.json:贱贱,qist_tvbox/0826.json:贱贱,qist_tvbox/367.json:贱贱,qist_tvbox/fty.json:荐片
-（僅引用 reference_file 共用檔）	Aid	🚑急救┃教学	OK/jsm.json	Aid	3	csp_FirstAidGuard	分類+播放+搜尋	2026-11-09	qist_tvbox/0821.json:Aid,qist_tvbox/0826.json:Aid,qist_tvbox/367.json:Aid,qist_tvbox/fty.json:Aid
-（無引用檔，直連 CMS）	量子	影视 • 量子[直连]	qist_tvbox/dianshi.json	量子	1	https://cj.lziapi.com/api.php/provide/vod/	分類+播放+搜尋	2026-11-09	OK/jsm.json:量子,qist_tvbox/jsm.json:量子,qist_tvbox/tools/dianshi.json:量子,qist_tvbox/tools/jsm.json:量子
-（無引用檔，直連 CMS）	非凡	影视 • 非凡[直连]	qist_tvbox/dianshi.json	非凡	1	http://ffzy.tv/api.php/provide/vod/	分類+播放+搜尋	2026-11-09	OK/jsm.json:非凡,qist_tvbox/jsm.json:非凡,qist_tvbox/tools/dianshi.json:非凡,qist_tvbox/tools/jsm.json:非凡
-（無引用檔，直連 CMS）	ikun资源	影视 | ikun资源[直连]	OK/jsm.json	ikun资源	1	https://www.ikunzy.com/api.php/provide/vod/	分類+播放+搜尋	2026-11-09	
-（無引用檔，直連 CMS）	U酷资源風	影视 • 尤酷[直连]	qist_tvbox/dianshi.json	U酷资源風	1	https://api.ukuapi.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	OK/jsm.json:U酷资源風,qist_tvbox/jsm.json:U酷资源風,qist_tvbox/tools/dianshi.json:U酷资源風,qist_tvbox/tools/jsm.json:U酷资源風
-（無引用檔，直連 CMS）	360资源	影视 | 360资源[直连]	OK/jsm.json	360资源	1	https://360zy.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	
-（無引用檔，直連 CMS）	极速资源	影视 • 极速[直连]	qist_tvbox/dianshi.json	极速资源	1	https://jszyapi.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	OK/jsm.json:极速资源,qist_tvbox/jsm.json:极速资源,qist_tvbox/tools/dianshi.json:极速资源,qist_tvbox/tools/jsm.json:极速资源
-（無引用檔，直連 CMS）	率率	影视 • 率率[直连]	qist_tvbox/dianshi.json	率率	1	https://suoniapi.com/api.php/provide/vod/?ac=list	分類+播放	2026-11-09	OK/jsm.json:率率,qist_tvbox/jsm.json:率率,qist_tvbox/tools/dianshi.json:率率,qist_tvbox/tools/jsm.json:率率
-（無引用檔，直連 CMS）	百度	百度	qist_tvbox/dianshi.json	百度	1	https://api.apibdzy.com/api.php/provide/vod?ac=list	分類+播放+搜尋	2026-11-09	OK/jsm.json:百度,liuhtt_gaotvbox/0821.json:百度,qist_tvbox/0821.json:百度,qist_tvbox/jsm.json:百度,qist_tvbox/tools/dianshi.json:百度,qist_tvbox/tools/jsm.json:百度
-（無引用檔，直連 CMS）	暴風	影视 • 暴風[直连]	qist_tvbox/dianshi.json	暴風	1	https://bfzyapi.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	OK/jsm.json:暴風,qist_tvbox/jsm.json:暴風,qist_tvbox/tools/dianshi.json:暴風,qist_tvbox/tools/jsm.json:暴風
-site_file/guanyuanmangguojs	drpy_js_百忙无果	官源 | 芒果[js]	qist_tvbox/js.json	drpy_js_百忙无果	3	./lib/drpy2.min.js	分類+播放	2026-11-09	OK/jsm.json:drpy_js_百忙无果,liuhtt_gaotvbox/0821.json:drpy_js_百忙无果,liuhtt_gaotvbox/XYQ.json:drpy_js_百忙无果,liuhtt_gaotvbox/js.json:drpy_js_百忙无果,qist_tvbox/0821.json:drpy_js_百忙无果,qist_tvbox/XYQ.json:drpy_js_百忙无果,qist_tvbox/dianshi.json:drpy_js_百忙无果,qist_tvbox/jsm.json:drpy_js_百忙无果,qist_tvbox/tools/dianshi.json:drpy_js_百忙无果,qist_tvbox/tools/jsm.json:drpy_js_百忙无果
-site_file/dongmanlumanmanjs	drpy_js_路漫漫	动漫 | 路漫漫[js]	qist_tvbox/js.json	drpy_js_路漫漫	3	./lib/drpy2.min.js	分類+播放	2026-11-09	OK/jsm.json:drpy_js_路漫漫,liuhtt_gaotvbox/js.json:drpy_js_路漫漫,qist_tvbox/dianshi.json:drpy_js_路漫漫,qist_tvbox/jsm.json:drpy_js_路漫漫,qist_tvbox/tools/dianshi.json:drpy_js_路漫漫,qist_tvbox/tools/jsm.json:drpy_js_路漫漫
-site_file/dongmanqukanbajs	drpy_js_去看吧	动漫 | 去看吧[js]	qist_tvbox/js.json	drpy_js_去看吧	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-09	OK/jsm.json:drpy_js_去看吧,liuhtt_gaotvbox/js.json:drpy_js_去看吧,qist_tvbox/dianshi.json:drpy_js_去看吧,qist_tvbox/jsm.json:drpy_js_去看吧,qist_tvbox/tools/dianshi.json:drpy_js_去看吧,qist_tvbox/tools/jsm.json:drpy_js_去看吧
-site_file/yinpina8yinyuejs	drpy_js_A8音乐	音频 | A8音乐[js]	qist_tvbox/js.json	drpy_js_A8音乐	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-09	OK/jsm.json:drpy_js_A8音乐,liuhtt_gaotvbox/js.json:drpy_js_A8音乐,qist_tvbox/dianshi.json:drpy_js_A8音乐,qist_tvbox/jsm.json:drpy_js_A8音乐,qist_tvbox/tools/dianshi.json:drpy_js_A8音乐,qist_tvbox/tools/jsm.json:drpy_js_A8音乐
-site_file/yinpindjyinyuejs	drpy_js_DJ音乐	音频 | DJ音乐[js]	qist_tvbox/js.json	drpy_js_DJ音乐	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-09	OK/jsm.json:drpy_js_DJ音乐,liuhtt_gaotvbox/0821.json:drpy_js_DJ音乐,liuhtt_gaotvbox/js.json:drpy_js_DJ音乐,qist_tvbox/0821.json:drpy_js_DJ音乐,qist_tvbox/dianshi.json:drpy_js_DJ音乐,qist_tvbox/jsm.json:drpy_js_DJ音乐,qist_tvbox/tools/dianshi.json:drpy_js_DJ音乐,qist_tvbox/tools/jsm.json:drpy_js_DJ音乐
-site_file/guangboguangbomifmjs	drpy_js_广播迷FM	广播 | 广播迷FM[js]	qist_tvbox/js.json	drpy_js_广播迷FM	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-09	OK/jsm.json:drpy_js_广播迷FM,liuhtt_gaotvbox/0821.json:drpy_js_广播迷FM,liuhtt_gaotvbox/js.json:drpy_js_广播迷FM,qist_tvbox/0821.json:drpy_js_广播迷FM
-site_file/guangboqingtingfmjs	drpy_js_蜻蜓FM	广播 | 蜻蜓FM[js]	qist_tvbox/js.json	drpy_js_蜻蜓FM	3	./lib/drpy2.min.js	分類+播放	2026-11-09	OK/jsm.json:drpy_js_蜻蜓FM,liuhtt_gaotvbox/0821.json:drpy_js_蜻蜓FM,liuhtt_gaotvbox/js.json:drpy_js_蜻蜓FM,qist_tvbox/0821.json:drpy_js_蜻蜓FM,qist_tvbox/dianshi.json:drpy_js_蜻蜓FM,qist_tvbox/jsm.json:drpy_js_蜻蜓FM,qist_tvbox/tools/dianshi.json:drpy_js_蜻蜓FM,qist_tvbox/tools/jsm.json:drpy_js_蜻蜓FM
-site_file/tingshubokantingshujs	drpy_js_博看听书	听书 | 博看听书[js]	qist_tvbox/js.json	drpy_js_博看听书	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-09	OK/jsm.json:drpy_js_博看听书,liuhtt_gaotvbox/0821.json:drpy_js_博看听书,liuhtt_gaotvbox/js.json:drpy_js_博看听书,qist_tvbox/0821.json:drpy_js_博看听书,qist_tvbox/dianshi.json:drpy_js_博看听书,qist_tvbox/jsm.json:drpy_js_博看听书,qist_tvbox/tools/dianshi.json:drpy_js_博看听书,qist_tvbox/tools/jsm.json:drpy_js_博看听书
-site_file/juheku6wangjs	drpy_js_酷6网	聚合 | 酷6网[js]	qist_tvbox/js.json	drpy_js_酷6网	3	./lib/drpy2.min.js	分類+播放	2026-11-09	OK/jsm.json:drpy_js_酷6网,liuhtt_gaotvbox/0821.json:drpy_js_酷6网,liuhtt_gaotvbox/js.json:drpy_js_酷6网,qist_tvbox/0821.json:drpy_js_酷6网,qist_tvbox/dianshi.json:drpy_js_酷6网,qist_tvbox/jsm.json:drpy_js_酷6网,qist_tvbox/tools/dianshi.json:drpy_js_酷6网,qist_tvbox/tools/jsm.json:drpy_js_酷6网
-site_file/juhewangyigongbanjs	drpy_js_网易公版影像	聚合 | 网易公版[js]	qist_tvbox/js.json	drpy_js_网易公版影像	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-09	OK/jsm.json:drpy_js_网易公版影像,liuhtt_gaotvbox/0821.json:drpy_js_网易公版影像,liuhtt_gaotvbox/js.json:drpy_js_网易公版影像,qist_tvbox/0821.json:drpy_js_网易公版影像,qist_tvbox/dianshi.json:drpy_js_网易公版影像,qist_tvbox/jsm.json:drpy_js_网易公版影像,qist_tvbox/tools/dianshi.json:drpy_js_网易公版影像,qist_tvbox/tools/jsm.json:drpy_js_网易公版影像
-（僅引用 reference_file 共用檔）	预告	新片 • 预告	qist_tvbox/dianshi.json	预告	3	csp_YGP	分類+播放	2026-11-09	liuhtt_gaotvbox/0821.json:csp_YGP,liuhtt_gaotvbox/0825.json:csp_YGP,liuhtt_gaotvbox/0826.json:YGP,qist_tvbox/0825.json:csp_YGP,qist_tvbox/jsm.json:预告,qist_tvbox/tools/dianshi.json:预告,qist_tvbox/tools/jsm.json:预告,qist_tvbox/xiaosa/api.json:预告
-site_file/shaoertuxiaobeijs	drpy_js_兔小贝	少儿 | 兔小贝[js]	qist_tvbox/js.json	drpy_js_兔小贝	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-09	liuhtt_gaotvbox/0821.json:drpy_js_兔小贝,liuhtt_gaotvbox/js.json:drpy_js_兔小贝,qist_tvbox/0821.json:drpy_js_兔小贝
-site_file/dianshihaoquwangjs	drpy_js_好趣网	电视 | 好趣网[js]	qist_tvbox/js.json	drpy_js_好趣网	3	./lib/drpy2.min.js	分類+播放	2026-11-09	liuhtt_gaotvbox/0821.json:drpy_js_好趣网,liuhtt_gaotvbox/js.json:drpy_js_好趣网,qist_tvbox/0821.json:drpy_js_好趣网
-（僅引用 reference_file 共用檔）	csp_Ikanbot	👾Ikanbot	qist_tvbox/XYQ.json	csp_Ikanbot	3	csp_Ikanbot	分類+播放+搜尋	2026-11-09	liuhtt_gaotvbox/XYQ.json:csp_Ikanbot
-site_file/tuxiaobeixyqh	csp_XYQHiker_兔小贝	兔小贝(XYQH)	qist_tvbox/XYQ.json	csp_XYQHiker_兔小贝	3	csp_XYQHiker	分類+播放+搜尋	2026-11-09	liuhtt_gaotvbox/XYQ.json:csp_XYQHiker_兔小贝
-site_file/tuxiaobei2xyqh	csp_XYQHiker_兔小贝2	兔小贝2(XYQH)	qist_tvbox/XYQ.json	csp_XYQHiker_兔小贝2	3	csp_XYQHiker	分類+播放+搜尋	2026-11-09	liuhtt_gaotvbox/XYQ.json:csp_XYQHiker_兔小贝2
-site_file/yingshikuaikanjs	drpy_js_快看	影视 | 快看[js]	qist_tvbox/js.json	drpy_js_快看	3	./lib/drpy2.min.js	分類+播放	2026-11-09	liuhtt_gaotvbox/js.json:drpy_js_快看
-site_file/yingshinongminyingshijs	drpy_js_农民	影视 | 农民影视[js]	qist_tvbox/js.json	drpy_js_农民	3	./lib/drpy2.min.js	分類+播放	2026-11-09	liuhtt_gaotvbox/js.json:drpy_js_农民
-site_file/yingshiliangziziyuanjs	drpy_js_量子资源	影视 | 量子资源[js]	qist_tvbox/js.json	drpy_js_量子资源	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-09	liuhtt_gaotvbox/js.json:drpy_js_量子资源
-site_file/yingshi567dianyingyuanjs	drpy_js_567电影院	影视 | 567电影院[js]	qist_tvbox/js.json	drpy_js_567电影院	3	./lib/drpy2.min.js	分類+播放	2026-11-09	liuhtt_gaotvbox/js.json:drpy_js_567电影院
-site_file/yingshiurlebirdfeijs	drpy_js_UrleBird[飞]	影视 | UrleBird[飞][js]	qist_tvbox/js.json	drpy_js_UrleBird[飞]	3	./lib/drpy2.min.js	分類+播放	2026-11-09	liuhtt_gaotvbox/js.json:drpy_js_UrleBird[飞]
-site_file/cili6vxinbanjs	drpy_js_6V新版[磁]	磁力 | 6V新版[js]	qist_tvbox/js.json	drpy_js_6V新版[磁]	3	./lib/drpy2.min.js	分類+播放	2026-11-09	liuhtt_gaotvbox/js.json:drpy_js_6V新版[磁]
-site_file/shaoeryoushenghuibenjs	drpy_js_有声绘本网	少儿 | 有声绘本[js]	qist_tvbox/js.json	drpy_js_有声绘本网	3	./lib/drpy2.min.js	分類+播放	2026-11-09	liuhtt_gaotvbox/js.json:drpy_js_有声绘本网
-site_file/yingshikaiyanshipinjs	drpy_js_开眼视频	影视 | 开眼视频[js]	qist_tvbox/js.json	drpy_js_开眼视频	3	./lib/drpy2.min.js	分類+播放	2026-11-09	liuhtt_gaotvbox/js.json:drpy_js_开眼视频
-site_file/yingshirenrenyingshijs	drpy_js_人人影视	影视 | 人人影视[js]	qist_tvbox/js.json	drpy_js_人人影视	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-09	liuhtt_gaotvbox/js.json:drpy_js_人人影视
-（僅引用 reference_file 共用檔）	瓜子影视	瓜子 • 影视	qist_tvbox/dianshi.json	瓜子影视	3	csp_Gz360	分類+播放+搜尋	2026-11-09	qist_tvbox/367.json:瓜子影视,qist_tvbox/jsm.json:瓜子影视,qist_tvbox/xiaosa/api.json:瓜子影视
-（無引用檔，直連 CMS）	155zy.com	♥155(直连)	qist_tvbox/99188.json	155zy.com	1	https://155api.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	qist_tvbox/9918.json:155zy.com
-（無引用檔，直連 CMS）	jkunzy.com	💕jkun(直连)	qist_tvbox/99188.json	jkunzy.com	1	https://jkunzyapi.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	qist_tvbox/9918.json:jkunzy.com
-（無引用檔，直連 CMS）	lebozy.com	💕乐播(直连)	qist_tvbox/99188.json	lebozy.com	1	https://lbapi9.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	qist_tvbox/9918.json:lebozy.com
-（無引用檔，直連 CMS）	senlinzy.com	♥森林(直连)	qist_tvbox/99188.json	senlinzy.com	1	https://slapibf.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	qist_tvbox/9918.json:senlinzy.com
-（無引用檔，直連 CMS）	didizy.com	♥滴滴(直连)	qist_tvbox/99188.json	didizy.com	1	https://api.ddapi.cc/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	qist_tvbox/9918.json:didizy.com
-（無引用檔，直連 CMS）	laosebizy.com	💕老色逼(直连)	qist_tvbox/99188.json	laosebizy.com	1	https://apilsbzy1.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	qist_tvbox/9918.json:laosebizy.com
-（無引用檔，直連 CMS）	fhapi9.com	★废柴(直连)	qist_tvbox/99188.json	fhapi9.com	1	http://fhapi9.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	qist_tvbox/9918.json:fhapi9.com
-（無引用檔，直連 CMS）	madouse.la	★魔法(直连)	qist_tvbox/99188.json	madouse.la	1	http://madouse.la/api.php/provide/vod/	分類+播放+搜尋	2026-11-09	qist_tvbox/9918.json:madouse.la
-（無引用檔，直連 CMS）	lajiaozy.com	辣椒(FQ)	qist_tvbox/99188.json	lajiaozy.com	1	https://apilj.com/api.php/provide/vod/at/json/?ac=list	分類+播放+搜尋	2026-11-09	qist_tvbox/9918.json:lajiaozy.com
-（無引用檔，直連 CMS）	bt4.cc	★91麻豆②(直连)	qist_tvbox/9918.json	bt4.cc	1	http://bt4.cc/api.php/provide/vod/from/mdm3u8/	分類+播放	2026-11-09	
-site_file/jable	jable	🔞┃Jable┃🔞	qist_tvbox/cat/tjs/18_tv_config.json	jable	3	./js/jable.js	分類+播放	2026-11-09	
-site_file/huyazhibo	huya	🐯┃虎牙直播┃🐯	qist_tvbox/cat/tjs/tv_config.json	huya	3	./js/huya.js	分類+播放+搜尋	2026-11-09	
-site_file/360yingshi	sp360	🥎┃360影视┃🥎	qist_tvbox/cat/tjs/tv_config.json	sp360	3	./js/sp360.js	分類+播放+搜尋	2026-11-09	
-site_file/ouleyingyuanwai	OleLive	欧乐影院 • 外	qist_tvbox/dianshi.json	OleLive	3	./py/OleLive.py	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:OleLive,qist_tvbox/tools/dianshi.json:OleLive,qist_tvbox/tools/jsm.json:OleLive
-site_file/huayiyingshi	华谊影视	华谊 • 影视	qist_tvbox/dianshi.json	华谊影视	3	./py/华谊影视.py	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:华谊影视,qist_tvbox/tools/dianshi.json:华谊影视,qist_tvbox/tools/jsm.json:华谊影视
-site_file/didayingshi	Didahd	嘀嗒影视	qist_tvbox/dianshi.json	Didahd	3	./py/Didahd.py	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:Didahd,qist_tvbox/tools/dianshi.json:Didahd,qist_tvbox/tools/jsm.json:Didahd
-site_file/tvbyunbo	TVB云播	TVB云播	qist_tvbox/dianshi.json	TVB云播	3	./py/TVB云播.py	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:TVB云播,qist_tvbox/tools/dianshi.json:TVB云播,qist_tvbox/tools/jsm.json:TVB云播
-（僅引用 reference_file 共用檔）	一起影视	一起 • APP	qist_tvbox/dianshi.json	一起影视	3	csp_AppYQK	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:一起影视,qist_tvbox/xiaosa/api.json:一起影视
-（僅引用 reference_file 共用檔）	咕噜	咕噜 • APP	qist_tvbox/dianshi.json	咕噜	3	csp_Gulu	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:咕噜,qist_tvbox/xiaosa/api.json:咕噜
-（僅引用 reference_file 共用檔）	布布	布布 • APP	qist_tvbox/dianshi.json	布布	3	csp_YunDuo	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:布布,qist_tvbox/xiaosa/api.json:布布
-（僅引用 reference_file 共用檔）	韩圈	韩圈 • APP	qist_tvbox/dianshi.json	韩圈	3	csp_Hxq	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:韩圈,qist_tvbox/xiaosa/api.json:韩圈
-（僅引用 reference_file 共用檔）	剧圈99	剧圈 • APP	qist_tvbox/dianshi.json	剧圈99	3	csp_App99	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:剧圈99,qist_tvbox/xiaosa/api.json:剧圈99
-（僅引用 reference_file 共用檔）	半日99	半日 • APP	qist_tvbox/dianshi.json	半日99	3	csp_App99	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:半日99,qist_tvbox/xiaosa/api.json:半日99
-（僅引用 reference_file 共用檔）	蓝鹰	蓝鹰 • APP	qist_tvbox/dianshi.json	蓝鹰	3	csp_AppQi	分類+播放	2026-11-09	qist_tvbox/jsm.json:蓝鹰,qist_tvbox/xiaosa/api.json:蓝鹰
-（僅引用 reference_file 共用檔）	蓝鸟	蓝鸟 • APP	qist_tvbox/dianshi.json	蓝鸟	3	csp_AppQi	分類+播放	2026-11-09	qist_tvbox/jsm.json:蓝鸟,qist_tvbox/xiaosa/api.json:蓝鸟
-（僅引用 reference_file 共用檔）	王子	王子 • APP	qist_tvbox/dianshi.json	王子	3	csp_AppGet	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:王子,qist_tvbox/xiaosa/api.json:王子
-（僅引用 reference_file 共用檔）	茉莉Get	茉莉 • APP	qist_tvbox/dianshi.json	茉莉Get	3	csp_AppGet	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:茉莉Get,qist_tvbox/xiaosa/api.json:茉莉Get
-（僅引用 reference_file 共用檔）	移动	移动 • 4K	qist_tvbox/dianshi.json	移动	3	csp_Yidong4K	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:移动,qist_tvbox/xiaosa/api.json:移动
-site_file/hongguoduanju	红果短剧	红果 • 短剧	qist_tvbox/dianshi.json	红果短剧	3	./py/红果短剧.py	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:红果短剧,qist_tvbox/xiaosa/api.json:红果短剧
-（僅引用 reference_file 共用檔）	七猫短剧	七猫 • 短剧	qist_tvbox/dianshi.json	七猫短剧	3	csp_ShortQimao	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:七猫短剧,qist_tvbox/xiaosa/api.json:七猫短剧
-（僅引用 reference_file 共用檔）	河马短剧	河马 • 短剧	qist_tvbox/dianshi.json	河马短剧	3	csp_ShortHema	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:河马短剧,qist_tvbox/xiaosa/api.json:河马短剧
-（僅引用 reference_file 共用檔）	围观短剧	围观 • 短剧	qist_tvbox/dianshi.json	围观短剧	3	csp_ShortWeiguan	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:围观短剧,qist_tvbox/xiaosa/api.json:围观短剧
-（僅引用 reference_file 共用檔）	好看短剧	好看 • 短剧	qist_tvbox/dianshi.json	好看短剧	3	csp_ShortHaokan	分類+播放	2026-11-09	qist_tvbox/jsm.json:好看短剧,qist_tvbox/xiaosa/api.json:好看短剧
-（僅引用 reference_file 共用檔）	星芽短剧	星芽 • 短剧	qist_tvbox/dianshi.json	星芽短剧	3	csp_ShortXingya	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:星芽短剧,qist_tvbox/xiaosa/api.json:星芽短剧
-（僅引用 reference_file 共用檔）	星辰影视	星辰 • 影视	qist_tvbox/dianshi.json	星辰影视	3	csp_XingChen	分類+播放	2026-11-09	qist_tvbox/jsm.json:星辰影视,qist_tvbox/xiaosa/api.json:星辰影视
-（僅引用 reference_file 共用檔）	飞娱影视	飞娱 • 影视	qist_tvbox/dianshi.json	飞娱影视	3	csp_Feiyu	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:飞娱影视,qist_tvbox/xiaosa/api.json:飞娱影视
-（僅引用 reference_file 共用檔）	旺旺影视	旺旺 • 影视	qist_tvbox/dianshi.json	旺旺影视	3	csp_Wwys	分類+播放	2026-11-09	qist_tvbox/jsm.json:旺旺影视,qist_tvbox/xiaosa/api.json:旺旺影视
-（僅引用 reference_file 共用檔）	独播影视	独播 • 影视	qist_tvbox/dianshi.json	独播影视	3	csp_Duboku	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:独播影视,qist_tvbox/xiaosa/api.json:独播影视
-（僅引用 reference_file 共用檔）	厂长影视	厂长 • 影视	qist_tvbox/dianshi.json	厂长影视	3	csp_Czsapp	分類+播放	2026-11-09	qist_tvbox/jsm.json:厂长影视,qist_tvbox/xiaosa/api.json:厂长影视
-（僅引用 reference_file 共用檔）	骚火影视	骚火 • 影视	qist_tvbox/dianshi.json	骚火影视	3	csp_SaoHuo	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:骚火影视,qist_tvbox/xiaosa/api.json:骚火影视
-（僅引用 reference_file 共用檔）	番社动漫	番社 • 动漫	qist_tvbox/dianshi.json	番社动漫	3	csp_XBPQ	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:番社动漫,qist_tvbox/xiaosa/api.json:番社动漫
-（僅引用 reference_file 共用檔）	稀饭	稀饭 • 动漫	qist_tvbox/dianshi.json	稀饭	3	csp_AnimeXifan	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:稀饭,qist_tvbox/xiaosa/api.json:稀饭
-（僅引用 reference_file 共用檔）	巴士动漫	巴士 • 动漫	qist_tvbox/dianshi.json	巴士动漫	3	csp_AnimeBashi	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:巴士动漫,qist_tvbox/xiaosa/api.json:巴士动漫
-（僅引用 reference_file 共用檔）	吉里动漫	吉里 • 动漫	qist_tvbox/dianshi.json	吉里动漫	3	csp_AnimeGiri	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:吉里动漫,qist_tvbox/xiaosa/api.json:吉里动漫
-（僅引用 reference_file 共用檔）	花子动漫	花子 • 动漫	qist_tvbox/dianshi.json	花子动漫	3	csp_AnimeHuazi	分類+播放	2026-11-09	qist_tvbox/jsm.json:花子动漫,qist_tvbox/xiaosa/api.json:花子动漫
-（僅引用 reference_file 共用檔）	荐片_2	荐片 • 磁力	qist_tvbox/dianshi.json	荐片	3	csp_JianPian	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:荐片,qist_tvbox/xiaosa/api.json:荐片
-（僅引用 reference_file 共用檔）	呦呦DJ	呦呦 • DJ	qist_tvbox/dianshi.json	呦呦DJ	3	csp_Djuu	搜尋+播放	2026-11-09	qist_tvbox/jsm.json:呦呦DJ,qist_tvbox/xiaosa/api.json:呦呦DJ
-（僅引用 reference_file 共用檔）	蜻蜓FM	蜻蜓 • FM	qist_tvbox/dianshi.json	蜻蜓FM	3	csp_QingtingFM	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:蜻蜓FM,qist_tvbox/xiaosa/api.json:蜻蜓FM
-（僅引用 reference_file 共用檔）	听友听书	听友 • 听书	qist_tvbox/dianshi.json	听友听书	3	csp_TingTingyou	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:听友听书,qist_tvbox/xiaosa/api.json:听友听书
-site_file/shijietingshu	世界听书	世界 • 听书	qist_tvbox/dianshi.json	世界听书	3	./py/世界听书.py	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:世界听书,qist_tvbox/xiaosa/api.json:世界听书
-（僅引用 reference_file 共用檔）	博看听书	博看 • 听书	qist_tvbox/dianshi.json	博看听书	3	csp_TingBokan	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:博看听书,qist_tvbox/xiaosa/api.json:博看听书
-（僅引用 reference_file 共用檔）	戏曲多多	戏曲 • 多多	qist_tvbox/dianshi.json	戏曲多多	3	csp_AppLY	分類+播放	2026-11-09	qist_tvbox/jsm.json:戏曲多多,qist_tvbox/xiaosa/api.json:戏曲多多
-（僅引用 reference_file 共用檔）	贝乐虎	贝乐虎 • 儿童	qist_tvbox/dianshi.json	贝乐虎	3	csp_BeiLeHu	分類+播放	2026-11-09	qist_tvbox/jsm.json:贝乐虎,qist_tvbox/xiaosa/api.json:贝乐虎
-（僅引用 reference_file 共用檔）	养生堂	养生 • 知识	qist_tvbox/dianshi.json	养生堂	3	csp_YST	分類+播放	2026-11-09	qist_tvbox/jsm.json:养生堂,qist_tvbox/xiaosa/api.json:养生堂
-（無引用檔，直連 CMS）	电影天堂_2	影视 • 电影天堂	qist_tvbox/dianshi.json	电影天堂	1	http://caiji.dyttzyapi.com/api.php/provide/vod	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:电影天堂,qist_tvbox/tools/dianshi.json:电影天堂,qist_tvbox/tools/jsm.json:电影天堂
-site_file/wangfeimao	Ncat	网飞猫	qist_tvbox/dianshi.json	Ncat	3	./py/Ncat.py	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:Ncat,qist_tvbox/tools/dianshi.json:Ncat,qist_tvbox/tools/jsm.json:Ncat
-（僅引用 reference_file 共用檔）	MTV1	🎙️易听┃音乐	qist_tvbox/fty.json	MTV1	3	csp_MusicGuard	分類+播放	2026-11-09	
-（僅引用 reference_file 共用檔）	光影	🌞光影┃不卡	qist_tvbox/fty.json	光影	3	csp_T4Guard	分類+播放+搜尋	2026-11-09	
-（僅引用 reference_file 共用檔）	立播	🌟立播┃不卡	qist_tvbox/fty.json	立播	3	csp_LibvioGuard	分類+播放+搜尋	2026-11-09	
-（僅引用 reference_file 共用檔）	奶酪	🧀奶酪┃秒播	qist_tvbox/fty.json	奶酪	3	csp_T4Guard	分類+播放+搜尋	2026-11-09	
-（僅引用 reference_file 共用檔）	视界	🌸茉莉┃多线	qist_tvbox/fty.json	视界	3	csp_App99Guard	分類+播放+搜尋	2026-11-09	
-（僅引用 reference_file 共用檔）	剧圈	🐻剧圈┃多线	qist_tvbox/fty.json	剧圈	3	csp_AppSxGuard	分類+播放+搜尋	2026-11-09	
-（僅引用 reference_file 共用檔）	奥特_2	🏝奥特┃多线	qist_tvbox/fty.json	奥特	3	csp_AueteGuard	分類+播放	2026-11-09	
-（僅引用 reference_file 共用檔）	有声小说	🎧有声┃小说	qist_tvbox/fty.json	有声小说	3	csp_YueTingGuard	分類+播放	2026-11-09	
+# 已搬入 mix.json / mix18.json 的點播源紀錄（續搬時以 原始設定檔+原始key 判斷是否已搬過）
+# 欄位：資料夾（site_file/ 下；只用共用檔或直連 CMS 的站以括號註明）	key	名稱	原始設定檔(相對 TV_Box_Sources)	原始key	type	api	驗證結果	搬移日期	相同內容的其他原始來源	設定檔
+site_file/kuyunxb	csp_XBiu_酷云	🍀酷云(XB)	2hacc_TVBox/h/h.json	csp_XBiu_酷云	3	csp_XBiubiu	分類+播放+搜尋	2026-11-09		mix.json
+（無引用檔，直連 CMS）	91md	🥈91md	2hacc_TVBox/h/h.json	91md	1	https://91md.me/api.php/provide/vod/from/mdm3u8/	分類+播放+搜尋	2026-11-09		mix18.json
+（無引用檔，直連 CMS）	鲨鱼	🥈鲨鱼	2hacc_TVBox/h/h.json	鲨鱼	1	https://shayuapi.com/api.php/provide/vod/	分類+播放+搜尋	2026-11-09	qist_tvbox/99188.json:shayuapi.com	mix18.json
+site_file/300fenlei	csp_XYQHiker_300分类	300分类	2hacc_TVBox/h/h.json	csp_XYQHiker_300分类	3	csp_XYQHiker	分類+播放+搜尋	2026-11-09		mix18.json
+（無引用檔，直連 CMS）	电影天堂	🎞️天堂┃采集	OK/OK.json	电影天堂	1	http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/	分類+播放+搜尋	2026-11-09		mix.json
+（僅引用 reference_file 共用檔）	Dm84	🚌巴士┃动漫	OK/jsm.json	Dm84	3	csp_Dm84Guard	分類+播放+搜尋	2026-11-09	OK/OK.json:动漫巴士,qist_tvbox/0821.json:Dm84,qist_tvbox/0826.json:Dm84,qist_tvbox/fty.json:Dm84	mix.json
+（僅引用 reference_file 共用檔）	fyyy	飞宇影院	qist_tvbox/dianshi.json	fyyy	3	csp_XBPQ	分類+播放+搜尋	2026-11-09	OK/jsm.json:fyyy,qist_tvbox/jsm.json:fyyy,qist_tvbox/tools/dianshi.json:fyyy,qist_tvbox/tools/jsm.json:fyyy	mix.json
+site_file/linghuapp	灵虎	灵虎｜APP	OK/jsm.json	灵虎	3	csp_AppGet	分類+播放+搜尋	2026-11-09		mix.json
+（僅引用 reference_file 共用檔）	YGP	🚀叨观荐影┃预告片	OK/jsm.json	YGP	3	csp_YGPGuard	分類+播放+搜尋	2026-11-09	qist_tvbox/0821.json:YGP,qist_tvbox/0826.json:YGP,qist_tvbox/367.json:update,qist_tvbox/fty.json:YGP	mix.json
+（僅引用 reference_file 共用檔）	厂长	📔厂长┃不卡	OK/jsm.json	厂长	3	csp_NewCzGuard	分類+播放	2026-11-09	qist_tvbox/0821.json:厂长,qist_tvbox/0826.json:厂长,qist_tvbox/367.json:厂长,qist_tvbox/fty.json:厂长	mix.json
+（僅引用 reference_file 共用檔）	糯米	🍓糯米┃秒播	OK/jsm.json	糯米	3	csp_NmyswvGuard	分類+播放	2026-11-09	qist_tvbox/0821.json:糯米,qist_tvbox/0826.json:糯米,qist_tvbox/367.json:糯米,qist_tvbox/fty.json:糯米	mix.json
+（僅引用 reference_file 共用檔）	Lib	🌟立播┃秒播	OK/jsm.json	Lib	3	csp_LibvioGuard	分類+播放	2026-11-09	qist_tvbox/0821.json:Lib,qist_tvbox/0826.json:Lib	mix.json
+（僅引用 reference_file 共用檔）	比特	🍄比特┃手机	OK/jsm.json	比特	3	csp_BttwooGuard	分類+播放+搜尋	2026-11-09	qist_tvbox/0821.json:比特,qist_tvbox/0826.json:比特,qist_tvbox/367.json:比特,qist_tvbox/fty.json:比特	mix.json
+（僅引用 reference_file 共用檔）	奥特	🏝奥特┃多线	OK/jsm.json	奥特	3	csp_AueteGuard	分類+播放	2026-11-09	qist_tvbox/0821.json:奥特,qist_tvbox/0826.json:奥特,qist_tvbox/367.json:Auete	mix.json
+（僅引用 reference_file 共用檔）	荐片	🐭荐片┃P2P	OK/jsm.json	荐片	3	csp_JPJGuard	分類+播放+搜尋	2026-11-09	qist_tvbox/0821.json:贱贱,qist_tvbox/0826.json:贱贱,qist_tvbox/367.json:贱贱,qist_tvbox/fty.json:荐片	mix.json
+（僅引用 reference_file 共用檔）	Aid	🚑急救┃教学	OK/jsm.json	Aid	3	csp_FirstAidGuard	分類+播放+搜尋	2026-11-09	qist_tvbox/0821.json:Aid,qist_tvbox/0826.json:Aid,qist_tvbox/367.json:Aid,qist_tvbox/fty.json:Aid	mix.json
+（無引用檔，直連 CMS）	量子	影视 • 量子[直连]	qist_tvbox/dianshi.json	量子	1	https://cj.lziapi.com/api.php/provide/vod/	分類+播放+搜尋	2026-11-09	OK/jsm.json:量子,qist_tvbox/jsm.json:量子,qist_tvbox/tools/dianshi.json:量子,qist_tvbox/tools/jsm.json:量子	mix.json
+（無引用檔，直連 CMS）	非凡	影视 • 非凡[直连]	qist_tvbox/dianshi.json	非凡	1	http://ffzy.tv/api.php/provide/vod/	分類+播放+搜尋	2026-11-09	OK/jsm.json:非凡,qist_tvbox/jsm.json:非凡,qist_tvbox/tools/dianshi.json:非凡,qist_tvbox/tools/jsm.json:非凡	mix.json
+（無引用檔，直連 CMS）	ikun资源	影视 | ikun资源[直连]	OK/jsm.json	ikun资源	1	https://www.ikunzy.com/api.php/provide/vod/	分類+播放+搜尋	2026-11-09		mix.json
+（無引用檔，直連 CMS）	U酷资源風	影视 • 尤酷[直连]	qist_tvbox/dianshi.json	U酷资源風	1	https://api.ukuapi.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	OK/jsm.json:U酷资源風,qist_tvbox/jsm.json:U酷资源風,qist_tvbox/tools/dianshi.json:U酷资源風,qist_tvbox/tools/jsm.json:U酷资源風	mix.json
+（無引用檔，直連 CMS）	360资源	影视 | 360资源[直连]	OK/jsm.json	360资源	1	https://360zy.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09		mix.json
+（無引用檔，直連 CMS）	极速资源	影视 • 极速[直连]	qist_tvbox/dianshi.json	极速资源	1	https://jszyapi.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	OK/jsm.json:极速资源,qist_tvbox/jsm.json:极速资源,qist_tvbox/tools/dianshi.json:极速资源,qist_tvbox/tools/jsm.json:极速资源	mix.json
+（無引用檔，直連 CMS）	率率	影视 • 率率[直连]	qist_tvbox/dianshi.json	率率	1	https://suoniapi.com/api.php/provide/vod/?ac=list	分類+播放	2026-11-09	OK/jsm.json:率率,qist_tvbox/jsm.json:率率,qist_tvbox/tools/dianshi.json:率率,qist_tvbox/tools/jsm.json:率率	mix.json
+（無引用檔，直連 CMS）	百度	百度	qist_tvbox/dianshi.json	百度	1	https://api.apibdzy.com/api.php/provide/vod?ac=list	分類+播放+搜尋	2026-11-09	OK/jsm.json:百度,liuhtt_gaotvbox/0821.json:百度,qist_tvbox/0821.json:百度,qist_tvbox/jsm.json:百度,qist_tvbox/tools/dianshi.json:百度,qist_tvbox/tools/jsm.json:百度	mix.json
+（無引用檔，直連 CMS）	暴風	影视 • 暴風[直连]	qist_tvbox/dianshi.json	暴風	1	https://bfzyapi.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	OK/jsm.json:暴風,qist_tvbox/jsm.json:暴風,qist_tvbox/tools/dianshi.json:暴風,qist_tvbox/tools/jsm.json:暴風	mix.json
+site_file/guanyuanmangguojs	drpy_js_百忙无果	官源 | 芒果[js]	qist_tvbox/js.json	drpy_js_百忙无果	3	./lib/drpy2.min.js	分類+播放	2026-11-09	OK/jsm.json:drpy_js_百忙无果,liuhtt_gaotvbox/0821.json:drpy_js_百忙无果,liuhtt_gaotvbox/XYQ.json:drpy_js_百忙无果,liuhtt_gaotvbox/js.json:drpy_js_百忙无果,qist_tvbox/0821.json:drpy_js_百忙无果,qist_tvbox/XYQ.json:drpy_js_百忙无果,qist_tvbox/dianshi.json:drpy_js_百忙无果,qist_tvbox/jsm.json:drpy_js_百忙无果,qist_tvbox/tools/dianshi.json:drpy_js_百忙无果,qist_tvbox/tools/jsm.json:drpy_js_百忙无果	mix.json
+site_file/dongmanlumanmanjs	drpy_js_路漫漫	动漫 | 路漫漫[js]	qist_tvbox/js.json	drpy_js_路漫漫	3	./lib/drpy2.min.js	分類+播放	2026-11-09	OK/jsm.json:drpy_js_路漫漫,liuhtt_gaotvbox/js.json:drpy_js_路漫漫,qist_tvbox/dianshi.json:drpy_js_路漫漫,qist_tvbox/jsm.json:drpy_js_路漫漫,qist_tvbox/tools/dianshi.json:drpy_js_路漫漫,qist_tvbox/tools/jsm.json:drpy_js_路漫漫	mix.json
+site_file/dongmanqukanbajs	drpy_js_去看吧	动漫 | 去看吧[js]	qist_tvbox/js.json	drpy_js_去看吧	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-09	OK/jsm.json:drpy_js_去看吧,liuhtt_gaotvbox/js.json:drpy_js_去看吧,qist_tvbox/dianshi.json:drpy_js_去看吧,qist_tvbox/jsm.json:drpy_js_去看吧,qist_tvbox/tools/dianshi.json:drpy_js_去看吧,qist_tvbox/tools/jsm.json:drpy_js_去看吧	mix.json
+site_file/yinpina8yinyuejs	drpy_js_A8音乐	音频 | A8音乐[js]	qist_tvbox/js.json	drpy_js_A8音乐	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-09	OK/jsm.json:drpy_js_A8音乐,liuhtt_gaotvbox/js.json:drpy_js_A8音乐,qist_tvbox/dianshi.json:drpy_js_A8音乐,qist_tvbox/jsm.json:drpy_js_A8音乐,qist_tvbox/tools/dianshi.json:drpy_js_A8音乐,qist_tvbox/tools/jsm.json:drpy_js_A8音乐	mix.json
+site_file/yinpindjyinyuejs	drpy_js_DJ音乐	音频 | DJ音乐[js]	qist_tvbox/js.json	drpy_js_DJ音乐	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-09	OK/jsm.json:drpy_js_DJ音乐,liuhtt_gaotvbox/0821.json:drpy_js_DJ音乐,liuhtt_gaotvbox/js.json:drpy_js_DJ音乐,qist_tvbox/0821.json:drpy_js_DJ音乐,qist_tvbox/dianshi.json:drpy_js_DJ音乐,qist_tvbox/jsm.json:drpy_js_DJ音乐,qist_tvbox/tools/dianshi.json:drpy_js_DJ音乐,qist_tvbox/tools/jsm.json:drpy_js_DJ音乐	mix.json
+site_file/guangboguangbomifmjs	drpy_js_广播迷FM	广播 | 广播迷FM[js]	qist_tvbox/js.json	drpy_js_广播迷FM	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-09	OK/jsm.json:drpy_js_广播迷FM,liuhtt_gaotvbox/0821.json:drpy_js_广播迷FM,liuhtt_gaotvbox/js.json:drpy_js_广播迷FM,qist_tvbox/0821.json:drpy_js_广播迷FM	mix.json
+site_file/guangboqingtingfmjs	drpy_js_蜻蜓FM	广播 | 蜻蜓FM[js]	qist_tvbox/js.json	drpy_js_蜻蜓FM	3	./lib/drpy2.min.js	分類+播放	2026-11-09	OK/jsm.json:drpy_js_蜻蜓FM,liuhtt_gaotvbox/0821.json:drpy_js_蜻蜓FM,liuhtt_gaotvbox/js.json:drpy_js_蜻蜓FM,qist_tvbox/0821.json:drpy_js_蜻蜓FM,qist_tvbox/dianshi.json:drpy_js_蜻蜓FM,qist_tvbox/jsm.json:drpy_js_蜻蜓FM,qist_tvbox/tools/dianshi.json:drpy_js_蜻蜓FM,qist_tvbox/tools/jsm.json:drpy_js_蜻蜓FM	mix.json
+site_file/tingshubokantingshujs	drpy_js_博看听书	听书 | 博看听书[js]	qist_tvbox/js.json	drpy_js_博看听书	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-09	OK/jsm.json:drpy_js_博看听书,liuhtt_gaotvbox/0821.json:drpy_js_博看听书,liuhtt_gaotvbox/js.json:drpy_js_博看听书,qist_tvbox/0821.json:drpy_js_博看听书,qist_tvbox/dianshi.json:drpy_js_博看听书,qist_tvbox/jsm.json:drpy_js_博看听书,qist_tvbox/tools/dianshi.json:drpy_js_博看听书,qist_tvbox/tools/jsm.json:drpy_js_博看听书	mix.json
+site_file/juheku6wangjs	drpy_js_酷6网	聚合 | 酷6网[js]	qist_tvbox/js.json	drpy_js_酷6网	3	./lib/drpy2.min.js	分類+播放	2026-11-09	OK/jsm.json:drpy_js_酷6网,liuhtt_gaotvbox/0821.json:drpy_js_酷6网,liuhtt_gaotvbox/js.json:drpy_js_酷6网,qist_tvbox/0821.json:drpy_js_酷6网,qist_tvbox/dianshi.json:drpy_js_酷6网,qist_tvbox/jsm.json:drpy_js_酷6网,qist_tvbox/tools/dianshi.json:drpy_js_酷6网,qist_tvbox/tools/jsm.json:drpy_js_酷6网	mix.json
+site_file/juhewangyigongbanjs	drpy_js_网易公版影像	聚合 | 网易公版[js]	qist_tvbox/js.json	drpy_js_网易公版影像	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-09	OK/jsm.json:drpy_js_网易公版影像,liuhtt_gaotvbox/0821.json:drpy_js_网易公版影像,liuhtt_gaotvbox/js.json:drpy_js_网易公版影像,qist_tvbox/0821.json:drpy_js_网易公版影像,qist_tvbox/dianshi.json:drpy_js_网易公版影像,qist_tvbox/jsm.json:drpy_js_网易公版影像,qist_tvbox/tools/dianshi.json:drpy_js_网易公版影像,qist_tvbox/tools/jsm.json:drpy_js_网易公版影像	mix.json
+（僅引用 reference_file 共用檔）	预告	新片 • 预告	qist_tvbox/dianshi.json	预告	3	csp_YGP	分類+播放	2026-11-09	liuhtt_gaotvbox/0821.json:csp_YGP,liuhtt_gaotvbox/0825.json:csp_YGP,liuhtt_gaotvbox/0826.json:YGP,qist_tvbox/0825.json:csp_YGP,qist_tvbox/jsm.json:预告,qist_tvbox/tools/dianshi.json:预告,qist_tvbox/tools/jsm.json:预告,qist_tvbox/xiaosa/api.json:预告	mix.json
+site_file/shaoertuxiaobeijs	drpy_js_兔小贝	少儿 | 兔小贝[js]	qist_tvbox/js.json	drpy_js_兔小贝	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-09	liuhtt_gaotvbox/0821.json:drpy_js_兔小贝,liuhtt_gaotvbox/js.json:drpy_js_兔小贝,qist_tvbox/0821.json:drpy_js_兔小贝	mix.json
+site_file/dianshihaoquwangjs	drpy_js_好趣网	电视 | 好趣网[js]	qist_tvbox/js.json	drpy_js_好趣网	3	./lib/drpy2.min.js	分類+播放	2026-11-09	liuhtt_gaotvbox/0821.json:drpy_js_好趣网,liuhtt_gaotvbox/js.json:drpy_js_好趣网,qist_tvbox/0821.json:drpy_js_好趣网	mix.json
+（僅引用 reference_file 共用檔）	csp_Ikanbot	👾Ikanbot	qist_tvbox/XYQ.json	csp_Ikanbot	3	csp_Ikanbot	分類+播放+搜尋	2026-11-09	liuhtt_gaotvbox/XYQ.json:csp_Ikanbot	mix.json
+site_file/tuxiaobeixyqh	csp_XYQHiker_兔小贝	兔小贝(XYQH)	qist_tvbox/XYQ.json	csp_XYQHiker_兔小贝	3	csp_XYQHiker	分類+播放+搜尋	2026-11-09	liuhtt_gaotvbox/XYQ.json:csp_XYQHiker_兔小贝	mix.json
+site_file/tuxiaobei2xyqh	csp_XYQHiker_兔小贝2	兔小贝2(XYQH)	qist_tvbox/XYQ.json	csp_XYQHiker_兔小贝2	3	csp_XYQHiker	分類+播放+搜尋	2026-11-09	liuhtt_gaotvbox/XYQ.json:csp_XYQHiker_兔小贝2	mix.json
+site_file/yingshikuaikanjs	drpy_js_快看	影视 | 快看[js]	qist_tvbox/js.json	drpy_js_快看	3	./lib/drpy2.min.js	分類+播放	2026-11-09	liuhtt_gaotvbox/js.json:drpy_js_快看	mix.json
+site_file/yingshinongminyingshijs	drpy_js_农民	影视 | 农民影视[js]	qist_tvbox/js.json	drpy_js_农民	3	./lib/drpy2.min.js	分類+播放	2026-11-09	liuhtt_gaotvbox/js.json:drpy_js_农民	mix.json
+site_file/yingshiliangziziyuanjs	drpy_js_量子资源	影视 | 量子资源[js]	qist_tvbox/js.json	drpy_js_量子资源	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-09	liuhtt_gaotvbox/js.json:drpy_js_量子资源	mix.json
+site_file/yingshi567dianyingyuanjs	drpy_js_567电影院	影视 | 567电影院[js]	qist_tvbox/js.json	drpy_js_567电影院	3	./lib/drpy2.min.js	分類+播放	2026-11-09	liuhtt_gaotvbox/js.json:drpy_js_567电影院	mix.json
+site_file/yingshiurlebirdfeijs	drpy_js_UrleBird[飞]	影视 | UrleBird[飞][js]	qist_tvbox/js.json	drpy_js_UrleBird[飞]	3	./lib/drpy2.min.js	分類+播放	2026-11-09	liuhtt_gaotvbox/js.json:drpy_js_UrleBird[飞]	mix.json
+site_file/cili6vxinbanjs	drpy_js_6V新版[磁]	磁力 | 6V新版[js]	qist_tvbox/js.json	drpy_js_6V新版[磁]	3	./lib/drpy2.min.js	分類+播放	2026-11-09	liuhtt_gaotvbox/js.json:drpy_js_6V新版[磁]	mix.json
+site_file/shaoeryoushenghuibenjs	drpy_js_有声绘本网	少儿 | 有声绘本[js]	qist_tvbox/js.json	drpy_js_有声绘本网	3	./lib/drpy2.min.js	分類+播放	2026-11-09	liuhtt_gaotvbox/js.json:drpy_js_有声绘本网	mix.json
+site_file/yingshikaiyanshipinjs	drpy_js_开眼视频	影视 | 开眼视频[js]	qist_tvbox/js.json	drpy_js_开眼视频	3	./lib/drpy2.min.js	分類+播放	2026-11-09	liuhtt_gaotvbox/js.json:drpy_js_开眼视频	mix.json
+site_file/yingshirenrenyingshijs	drpy_js_人人影视	影视 | 人人影视[js]	qist_tvbox/js.json	drpy_js_人人影视	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-09	liuhtt_gaotvbox/js.json:drpy_js_人人影视	mix.json
+（僅引用 reference_file 共用檔）	瓜子影视	瓜子 • 影视	qist_tvbox/dianshi.json	瓜子影视	3	csp_Gz360	分類+播放+搜尋	2026-11-09	qist_tvbox/367.json:瓜子影视,qist_tvbox/jsm.json:瓜子影视,qist_tvbox/xiaosa/api.json:瓜子影视	mix.json
+（無引用檔，直連 CMS）	155zy.com	♥155(直连)	qist_tvbox/99188.json	155zy.com	1	https://155api.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	qist_tvbox/9918.json:155zy.com	mix18.json
+（無引用檔，直連 CMS）	jkunzy.com	💕jkun(直连)	qist_tvbox/99188.json	jkunzy.com	1	https://jkunzyapi.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	qist_tvbox/9918.json:jkunzy.com	mix18.json
+（無引用檔，直連 CMS）	lebozy.com	💕乐播(直连)	qist_tvbox/99188.json	lebozy.com	1	https://lbapi9.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	qist_tvbox/9918.json:lebozy.com	mix18.json
+（無引用檔，直連 CMS）	senlinzy.com	♥森林(直连)	qist_tvbox/99188.json	senlinzy.com	1	https://slapibf.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	qist_tvbox/9918.json:senlinzy.com	mix18.json
+（無引用檔，直連 CMS）	didizy.com	♥滴滴(直连)	qist_tvbox/99188.json	didizy.com	1	https://api.ddapi.cc/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	qist_tvbox/9918.json:didizy.com	mix18.json
+（無引用檔，直連 CMS）	laosebizy.com	💕老色逼(直连)	qist_tvbox/99188.json	laosebizy.com	1	https://apilsbzy1.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	qist_tvbox/9918.json:laosebizy.com	mix18.json
+（無引用檔，直連 CMS）	fhapi9.com	★废柴(直连)	qist_tvbox/99188.json	fhapi9.com	1	http://fhapi9.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-09	qist_tvbox/9918.json:fhapi9.com	mix18.json
+（無引用檔，直連 CMS）	madouse.la	★魔法(直连)	qist_tvbox/99188.json	madouse.la	1	http://madouse.la/api.php/provide/vod/	分類+播放+搜尋	2026-11-09	qist_tvbox/9918.json:madouse.la	mix18.json
+（無引用檔，直連 CMS）	lajiaozy.com	辣椒(FQ)	qist_tvbox/99188.json	lajiaozy.com	1	https://apilj.com/api.php/provide/vod/at/json/?ac=list	分類+播放+搜尋	2026-11-09	qist_tvbox/9918.json:lajiaozy.com	mix18.json
+（無引用檔，直連 CMS）	bt4.cc	★91麻豆②(直连)	qist_tvbox/9918.json	bt4.cc	1	http://bt4.cc/api.php/provide/vod/from/mdm3u8/	分類+播放	2026-11-09		mix18.json
+site_file/jable	jable	🔞┃Jable┃🔞	qist_tvbox/cat/tjs/18_tv_config.json	jable	3	./js/jable.js	分類+播放	2026-11-09		mix18.json
+site_file/huyazhibo	huya	🐯┃虎牙直播┃🐯	qist_tvbox/cat/tjs/tv_config.json	huya	3	./js/huya.js	分類+播放+搜尋	2026-11-09		mix.json
+site_file/360yingshi	sp360	🥎┃360影视┃🥎	qist_tvbox/cat/tjs/tv_config.json	sp360	3	./js/sp360.js	分類+播放+搜尋	2026-11-09		mix.json
+site_file/ouleyingyuanwai	OleLive	欧乐影院 • 外	qist_tvbox/dianshi.json	OleLive	3	./py/OleLive.py	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:OleLive,qist_tvbox/tools/dianshi.json:OleLive,qist_tvbox/tools/jsm.json:OleLive	mix.json
+site_file/huayiyingshi	华谊影视	华谊 • 影视	qist_tvbox/dianshi.json	华谊影视	3	./py/华谊影视.py	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:华谊影视,qist_tvbox/tools/dianshi.json:华谊影视,qist_tvbox/tools/jsm.json:华谊影视	mix.json
+site_file/didayingshi	Didahd	嘀嗒影视	qist_tvbox/dianshi.json	Didahd	3	./py/Didahd.py	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:Didahd,qist_tvbox/tools/dianshi.json:Didahd,qist_tvbox/tools/jsm.json:Didahd	mix.json
+site_file/tvbyunbo	TVB云播	TVB云播	qist_tvbox/dianshi.json	TVB云播	3	./py/TVB云播.py	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:TVB云播,qist_tvbox/tools/dianshi.json:TVB云播,qist_tvbox/tools/jsm.json:TVB云播	mix.json
+（僅引用 reference_file 共用檔）	一起影视	一起 • APP	qist_tvbox/dianshi.json	一起影视	3	csp_AppYQK	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:一起影视,qist_tvbox/xiaosa/api.json:一起影视	mix.json
+（僅引用 reference_file 共用檔）	咕噜	咕噜 • APP	qist_tvbox/dianshi.json	咕噜	3	csp_Gulu	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:咕噜,qist_tvbox/xiaosa/api.json:咕噜	mix.json
+（僅引用 reference_file 共用檔）	布布	布布 • APP	qist_tvbox/dianshi.json	布布	3	csp_YunDuo	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:布布,qist_tvbox/xiaosa/api.json:布布	mix.json
+（僅引用 reference_file 共用檔）	韩圈	韩圈 • APP	qist_tvbox/dianshi.json	韩圈	3	csp_Hxq	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:韩圈,qist_tvbox/xiaosa/api.json:韩圈	mix.json
+（僅引用 reference_file 共用檔）	剧圈99	剧圈 • APP	qist_tvbox/dianshi.json	剧圈99	3	csp_App99	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:剧圈99,qist_tvbox/xiaosa/api.json:剧圈99	mix.json
+（僅引用 reference_file 共用檔）	半日99	半日 • APP	qist_tvbox/dianshi.json	半日99	3	csp_App99	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:半日99,qist_tvbox/xiaosa/api.json:半日99	mix.json
+（僅引用 reference_file 共用檔）	蓝鹰	蓝鹰 • APP	qist_tvbox/dianshi.json	蓝鹰	3	csp_AppQi	分類+播放	2026-11-09	qist_tvbox/jsm.json:蓝鹰,qist_tvbox/xiaosa/api.json:蓝鹰	mix.json
+（僅引用 reference_file 共用檔）	蓝鸟	蓝鸟 • APP	qist_tvbox/dianshi.json	蓝鸟	3	csp_AppQi	分類+播放	2026-11-09	qist_tvbox/jsm.json:蓝鸟,qist_tvbox/xiaosa/api.json:蓝鸟	mix.json
+（僅引用 reference_file 共用檔）	王子	王子 • APP	qist_tvbox/dianshi.json	王子	3	csp_AppGet	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:王子,qist_tvbox/xiaosa/api.json:王子	mix.json
+（僅引用 reference_file 共用檔）	茉莉Get	茉莉 • APP	qist_tvbox/dianshi.json	茉莉Get	3	csp_AppGet	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:茉莉Get,qist_tvbox/xiaosa/api.json:茉莉Get	mix.json
+（僅引用 reference_file 共用檔）	移动	移动 • 4K	qist_tvbox/dianshi.json	移动	3	csp_Yidong4K	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:移动,qist_tvbox/xiaosa/api.json:移动	mix.json
+site_file/hongguoduanju	红果短剧	红果 • 短剧	qist_tvbox/dianshi.json	红果短剧	3	./py/红果短剧.py	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:红果短剧,qist_tvbox/xiaosa/api.json:红果短剧	mix.json
+（僅引用 reference_file 共用檔）	七猫短剧	七猫 • 短剧	qist_tvbox/dianshi.json	七猫短剧	3	csp_ShortQimao	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:七猫短剧,qist_tvbox/xiaosa/api.json:七猫短剧	mix.json
+（僅引用 reference_file 共用檔）	河马短剧	河马 • 短剧	qist_tvbox/dianshi.json	河马短剧	3	csp_ShortHema	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:河马短剧,qist_tvbox/xiaosa/api.json:河马短剧	mix.json
+（僅引用 reference_file 共用檔）	围观短剧	围观 • 短剧	qist_tvbox/dianshi.json	围观短剧	3	csp_ShortWeiguan	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:围观短剧,qist_tvbox/xiaosa/api.json:围观短剧	mix.json
+（僅引用 reference_file 共用檔）	好看短剧	好看 • 短剧	qist_tvbox/dianshi.json	好看短剧	3	csp_ShortHaokan	分類+播放	2026-11-09	qist_tvbox/jsm.json:好看短剧,qist_tvbox/xiaosa/api.json:好看短剧	mix.json
+（僅引用 reference_file 共用檔）	星芽短剧	星芽 • 短剧	qist_tvbox/dianshi.json	星芽短剧	3	csp_ShortXingya	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:星芽短剧,qist_tvbox/xiaosa/api.json:星芽短剧	mix.json
+（僅引用 reference_file 共用檔）	星辰影视	星辰 • 影视	qist_tvbox/dianshi.json	星辰影视	3	csp_XingChen	分類+播放	2026-11-09	qist_tvbox/jsm.json:星辰影视,qist_tvbox/xiaosa/api.json:星辰影视	mix.json
+（僅引用 reference_file 共用檔）	飞娱影视	飞娱 • 影视	qist_tvbox/dianshi.json	飞娱影视	3	csp_Feiyu	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:飞娱影视,qist_tvbox/xiaosa/api.json:飞娱影视	mix.json
+（僅引用 reference_file 共用檔）	旺旺影视	旺旺 • 影视	qist_tvbox/dianshi.json	旺旺影视	3	csp_Wwys	分類+播放	2026-11-09	qist_tvbox/jsm.json:旺旺影视,qist_tvbox/xiaosa/api.json:旺旺影视	mix.json
+（僅引用 reference_file 共用檔）	独播影视	独播 • 影视	qist_tvbox/dianshi.json	独播影视	3	csp_Duboku	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:独播影视,qist_tvbox/xiaosa/api.json:独播影视	mix.json
+（僅引用 reference_file 共用檔）	厂长影视	厂长 • 影视	qist_tvbox/dianshi.json	厂长影视	3	csp_Czsapp	分類+播放	2026-11-09	qist_tvbox/jsm.json:厂长影视,qist_tvbox/xiaosa/api.json:厂长影视	mix.json
+（僅引用 reference_file 共用檔）	骚火影视	骚火 • 影视	qist_tvbox/dianshi.json	骚火影视	3	csp_SaoHuo	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:骚火影视,qist_tvbox/xiaosa/api.json:骚火影视	mix.json
+（僅引用 reference_file 共用檔）	番社动漫	番社 • 动漫	qist_tvbox/dianshi.json	番社动漫	3	csp_XBPQ	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:番社动漫,qist_tvbox/xiaosa/api.json:番社动漫	mix.json
+（僅引用 reference_file 共用檔）	稀饭	稀饭 • 动漫	qist_tvbox/dianshi.json	稀饭	3	csp_AnimeXifan	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:稀饭,qist_tvbox/xiaosa/api.json:稀饭	mix.json
+（僅引用 reference_file 共用檔）	巴士动漫	巴士 • 动漫	qist_tvbox/dianshi.json	巴士动漫	3	csp_AnimeBashi	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:巴士动漫,qist_tvbox/xiaosa/api.json:巴士动漫	mix.json
+（僅引用 reference_file 共用檔）	吉里动漫	吉里 • 动漫	qist_tvbox/dianshi.json	吉里动漫	3	csp_AnimeGiri	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:吉里动漫,qist_tvbox/xiaosa/api.json:吉里动漫	mix.json
+（僅引用 reference_file 共用檔）	花子动漫	花子 • 动漫	qist_tvbox/dianshi.json	花子动漫	3	csp_AnimeHuazi	分類+播放	2026-11-09	qist_tvbox/jsm.json:花子动漫,qist_tvbox/xiaosa/api.json:花子动漫	mix.json
+（僅引用 reference_file 共用檔）	荐片_2	荐片 • 磁力	qist_tvbox/dianshi.json	荐片	3	csp_JianPian	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:荐片,qist_tvbox/xiaosa/api.json:荐片	mix.json
+（僅引用 reference_file 共用檔）	呦呦DJ	呦呦 • DJ	qist_tvbox/dianshi.json	呦呦DJ	3	csp_Djuu	搜尋+播放	2026-11-09	qist_tvbox/jsm.json:呦呦DJ,qist_tvbox/xiaosa/api.json:呦呦DJ	mix.json
+（僅引用 reference_file 共用檔）	蜻蜓FM	蜻蜓 • FM	qist_tvbox/dianshi.json	蜻蜓FM	3	csp_QingtingFM	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:蜻蜓FM,qist_tvbox/xiaosa/api.json:蜻蜓FM	mix.json
+（僅引用 reference_file 共用檔）	听友听书	听友 • 听书	qist_tvbox/dianshi.json	听友听书	3	csp_TingTingyou	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:听友听书,qist_tvbox/xiaosa/api.json:听友听书	mix.json
+site_file/shijietingshu	世界听书	世界 • 听书	qist_tvbox/dianshi.json	世界听书	3	./py/世界听书.py	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:世界听书,qist_tvbox/xiaosa/api.json:世界听书	mix.json
+（僅引用 reference_file 共用檔）	博看听书	博看 • 听书	qist_tvbox/dianshi.json	博看听书	3	csp_TingBokan	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:博看听书,qist_tvbox/xiaosa/api.json:博看听书	mix.json
+（僅引用 reference_file 共用檔）	戏曲多多	戏曲 • 多多	qist_tvbox/dianshi.json	戏曲多多	3	csp_AppLY	分類+播放	2026-11-09	qist_tvbox/jsm.json:戏曲多多,qist_tvbox/xiaosa/api.json:戏曲多多	mix.json
+（僅引用 reference_file 共用檔）	贝乐虎	贝乐虎 • 儿童	qist_tvbox/dianshi.json	贝乐虎	3	csp_BeiLeHu	分類+播放	2026-11-09	qist_tvbox/jsm.json:贝乐虎,qist_tvbox/xiaosa/api.json:贝乐虎	mix.json
+（僅引用 reference_file 共用檔）	养生堂	养生 • 知识	qist_tvbox/dianshi.json	养生堂	3	csp_YST	分類+播放	2026-11-09	qist_tvbox/jsm.json:养生堂,qist_tvbox/xiaosa/api.json:养生堂	mix.json
+（無引用檔，直連 CMS）	电影天堂_2	影视 • 电影天堂	qist_tvbox/dianshi.json	电影天堂	1	http://caiji.dyttzyapi.com/api.php/provide/vod	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:电影天堂,qist_tvbox/tools/dianshi.json:电影天堂,qist_tvbox/tools/jsm.json:电影天堂	mix.json
+site_file/wangfeimao	Ncat	网飞猫	qist_tvbox/dianshi.json	Ncat	3	./py/Ncat.py	分類+播放+搜尋	2026-11-09	qist_tvbox/jsm.json:Ncat,qist_tvbox/tools/dianshi.json:Ncat,qist_tvbox/tools/jsm.json:Ncat	mix.json
+（僅引用 reference_file 共用檔）	MTV1	🎙️易听┃音乐	qist_tvbox/fty.json	MTV1	3	csp_MusicGuard	分類+播放	2026-11-09		mix.json
+（僅引用 reference_file 共用檔）	光影	🌞光影┃不卡	qist_tvbox/fty.json	光影	3	csp_T4Guard	分類+播放+搜尋	2026-11-09		mix.json
+（僅引用 reference_file 共用檔）	立播	🌟立播┃不卡	qist_tvbox/fty.json	立播	3	csp_LibvioGuard	分類+播放+搜尋	2026-11-09		mix.json
+（僅引用 reference_file 共用檔）	奶酪	🧀奶酪┃秒播	qist_tvbox/fty.json	奶酪	3	csp_T4Guard	分類+播放+搜尋	2026-11-09		mix.json
+（僅引用 reference_file 共用檔）	视界	🌸茉莉┃多线	qist_tvbox/fty.json	视界	3	csp_App99Guard	分類+播放+搜尋	2026-11-09		mix.json
+（僅引用 reference_file 共用檔）	剧圈	🐻剧圈┃多线	qist_tvbox/fty.json	剧圈	3	csp_AppSxGuard	分類+播放+搜尋	2026-11-09		mix.json
+（僅引用 reference_file 共用檔）	奥特_2	🏝奥特┃多线	qist_tvbox/fty.json	奥特	3	csp_AueteGuard	分類+播放	2026-11-09		mix.json
+（僅引用 reference_file 共用檔）	有声小说	🎧有声┃小说	qist_tvbox/fty.json	有声小说	3	csp_YueTingGuard	分類+播放	2026-11-09		mix.json
