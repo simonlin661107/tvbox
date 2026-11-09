@@ -6,10 +6,10 @@
 * @Software : Samples
 * @Desc     : SP360(需要用到解析)
 */
-import {Spider} from "../../reference_file/js/spider.js";
-import {_, Crypto, load} from "../../reference_file/lib/cat.js";
-import {VodDetail, VodShort} from "../../reference_file/lib/vod.js";
-import * as Utils from "../../reference_file/lib/utils.js";
+import {Spider} from "../../../reference_file/js/spider.js";
+import {_, Crypto, load} from "../../../reference_file/lib/cat.js";
+import {VodDetail, VodShort} from "../../../reference_file/lib/vod.js";
+import * as Utils from "../../../reference_file/lib/utils.js";
 
 class Sp360Spider extends Spider {
     constructor() {

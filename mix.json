@@ -9,7 +9,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./kuyunxb/XB/酷云.json",
+      "ext": "./site_file/kuyunxb/XB/酷云.json",
       "jar": "./reference_file/jar/h.jar"
     },
     {
@@ -38,7 +38,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./300fenlei/XYQHiker/300分类.json",
+      "ext": "./site_file/300fenlei/XYQHiker/300分类.json",
       "jar": "./reference_file/jar/h.jar"
     },
     {
@@ -95,7 +95,7 @@
         "deviceId": "",
         "version": ""
       },
-      "jar": "./linghuapp/xiaosa/spider.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
+      "jar": "./site_file/linghuapp/xiaosa/spider.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
       "searchable": 1
     },
     {
@@ -499,7 +499,7 @@
       "name": "官源 | 芒果[js]",
       "type": 3,
       "api": "./reference_file/lib/drpy2.min.js",
-      "ext": "./guanyuanmangguojs/js/百忙无果.js",
+      "ext": "./site_file/guanyuanmangguojs/js/百忙无果.js",
       "searchable": 0,
       "quickSearch": 0
     },
@@ -508,7 +508,7 @@
       "name": "动漫 | 路漫漫[js]",
       "type": 3,
       "api": "./reference_file/lib/drpy2.min.js",
-      "ext": "./dongmanlumanmanjs/js/路漫漫.js",
+      "ext": "./site_file/dongmanlumanmanjs/js/路漫漫.js",
       "searchable": 0,
       "quickSearch": 0
     },
@@ -517,7 +517,7 @@
       "name": "动漫 | 去看吧[js]",
       "type": 3,
       "api": "./reference_file/lib/drpy2.min.js",
-      "ext": "./dongmanqukanbajs/js/去看吧.js",
+      "ext": "./site_file/dongmanqukanbajs/js/去看吧.js",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -526,7 +526,7 @@
       "name": "音频 | A8音乐[js]",
       "type": 3,
       "api": "./reference_file/lib/drpy2.min.js",
-      "ext": "./yinpina8yinyuejs/js/A8音乐.js",
+      "ext": "./site_file/yinpina8yinyuejs/js/A8音乐.js",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -540,7 +540,7 @@
         "type": "rect",
         "ratio": 1
       },
-      "ext": "./yinpindjyinyuejs/js/DJ音乐.js",
+      "ext": "./site_file/yinpindjyinyuejs/js/DJ音乐.js",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -550,7 +550,7 @@
       "type": 3,
       "api": "./reference_file/lib/drpy2.min.js",
       "changeable": 0,
-      "ext": "./guangboguangbomifmjs/js/广播迷FM.js",
+      "ext": "./site_file/guangboguangbomifmjs/js/广播迷FM.js",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -560,7 +560,7 @@
       "type": 3,
       "api": "./reference_file/lib/drpy2.min.js",
       "changeable": 0,
-      "ext": "./guangboqingtingfmjs/js/蜻蜓FM.js",
+      "ext": "./site_file/guangboqingtingfmjs/js/蜻蜓FM.js",
       "searchable": 0,
       "quickSearch": 0
     },
@@ -574,7 +574,7 @@
         "type": "rect",
         "ratio": 1
       },
-      "ext": "./tingshubokantingshujs/js/博看听书.js",
+      "ext": "./site_file/tingshubokantingshujs/js/博看听书.js",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -584,7 +584,7 @@
       "type": 3,
       "api": "./reference_file/lib/drpy2.min.js",
       "changeable": 0,
-      "ext": "./juheku6wangjs/js/酷6网.js",
+      "ext": "./site_file/juheku6wangjs/js/酷6网.js",
       "searchable": 0,
       "quickSearch": 0
     },
@@ -598,7 +598,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "ext": "./juhewangyigongbanjs/js/网易公版影像.js",
+      "ext": "./site_file/juhewangyigongbanjs/js/网易公版影像.js",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -621,7 +621,7 @@
         "ratio": 1.597
       },
       "changeable": 0,
-      "ext": "./shaoertuxiaobeijs/js/兔小贝.js",
+      "ext": "./site_file/shaoertuxiaobeijs/js/兔小贝.js",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -635,7 +635,7 @@
         "ratio": 1.333
       },
       "changeable": 0,
-      "ext": "./dianshihaoquwangjs/js/好趣网.js",
+      "ext": "./site_file/dianshihaoquwangjs/js/好趣网.js",
       "searchable": 0,
       "quickSearch": 0
     },
@@ -658,7 +658,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./tuxiaobeixyqh/XYQHiker/兔小贝.json",
+      "ext": "./site_file/tuxiaobeixyqh/XYQHiker/兔小贝.json",
       "jar": "./reference_file/jar/XYQ.jar;md5;705ba6e23c4384c37a11dd904727520b"
     },
     {
@@ -669,7 +669,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./tuxiaobei2xyqh/XYQHiker/兔小贝2.json",
+      "ext": "./site_file/tuxiaobei2xyqh/XYQHiker/兔小贝2.json",
       "jar": "./reference_file/jar/XYQ.jar;md5;705ba6e23c4384c37a11dd904727520b"
     },
     {
@@ -677,7 +677,7 @@
       "name": "影视 | 快看[js]",
       "type": 3,
       "api": "./reference_file/lib/drpy2.min.js",
-      "ext": "./yingshikuaikanjs/js/快看.js",
+      "ext": "./site_file/yingshikuaikanjs/js/快看.js",
       "searchable": 0,
       "quickSearch": 0
     },
@@ -686,7 +686,7 @@
       "name": "影视 | 农民影视[js]",
       "type": 3,
       "api": "./reference_file/lib/drpy2.min.js",
-      "ext": "./yingshinongminyingshijs/js/农民影视.js",
+      "ext": "./site_file/yingshinongminyingshijs/js/农民影视.js",
       "searchable": 0,
       "quickSearch": 0
     },
@@ -695,7 +695,7 @@
       "name": "影视 | 量子资源[js]",
       "type": 3,
       "api": "./reference_file/lib/drpy2.min.js",
-      "ext": "./yingshiliangziziyuanjs/js/量子资源.js",
+      "ext": "./site_file/yingshiliangziziyuanjs/js/量子资源.js",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -704,7 +704,7 @@
       "name": "影视 | 567电影院[js]",
       "type": 3,
       "api": "./reference_file/lib/drpy2.min.js",
-      "ext": "./yingshi567dianyingyuanjs/js/567电影院.js",
+      "ext": "./site_file/yingshi567dianyingyuanjs/js/567电影院.js",
       "searchable": 0,
       "quickSearch": 0
     },
@@ -713,7 +713,7 @@
       "name": "影视 | UrleBird[飞][js]",
       "type": 3,
       "api": "./reference_file/lib/drpy2.min.js",
-      "ext": "./yingshiurlebirdfeijs/js/UrleBird[飞].js",
+      "ext": "./site_file/yingshiurlebirdfeijs/js/UrleBird[飞].js",
       "searchable": 0,
       "quickSearch": 0
     },
@@ -725,7 +725,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./cili6vxinbanjs/js/6V新版[磁].js",
+      "ext": "./site_file/cili6vxinbanjs/js/6V新版[磁].js",
       "timeout": 30
     },
     {
@@ -738,7 +738,7 @@
         "type": "rect",
         "ratio": 1
       },
-      "ext": "./shaoeryoushenghuibenjs/js/有声绘本网.js",
+      "ext": "./site_file/shaoeryoushenghuibenjs/js/有声绘本网.js",
       "searchable": 0,
       "quickSearch": 0
     },
@@ -747,7 +747,7 @@
       "name": "影视 | 开眼视频[js]",
       "type": 3,
       "api": "./reference_file/lib/drpy2.min.js",
-      "ext": "./yingshikaiyanshipinjs/js/开眼视频.js",
+      "ext": "./site_file/yingshikaiyanshipinjs/js/开眼视频.js",
       "searchable": 0,
       "quickSearch": 0
     },
@@ -756,7 +756,7 @@
       "name": "影视 | 人人影视[js]",
       "type": 3,
       "api": "./reference_file/lib/drpy2.min.js",
-      "ext": "./yingshirenrenyingshijs/js/人人影视.js",
+      "ext": "./site_file/yingshirenrenyingshijs/js/人人影视.js",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -862,7 +862,7 @@
     {
       "key": "jable",
       "name": "🔞┃Jable┃🔞",
-      "api": "./jable/js/jable.js",
+      "api": "./site_file/jable/js/jable.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -875,7 +875,7 @@
     {
       "key": "huya",
       "name": "🐯┃虎牙直播┃🐯",
-      "api": "./huyazhibo/js/huya.js",
+      "api": "./site_file/huyazhibo/js/huya.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -888,7 +888,7 @@
     {
       "key": "sp360",
       "name": "🥎┃360影视┃🥎",
-      "api": "./360yingshi/js/sp360.js",
+      "api": "./site_file/360yingshi/js/sp360.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -902,7 +902,7 @@
       "key": "OleLive",
       "name": "欧乐影院 • 外",
       "type": 3,
-      "api": "./ouleyingyuanwai/py/OleLive.py",
+      "api": "./site_file/ouleyingyuanwai/py/OleLive.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -912,7 +912,7 @@
       "key": "华谊影视",
       "name": "华谊 • 影视",
       "type": 3,
-      "api": "./huayiyingshi/py/华谊影视.py",
+      "api": "./site_file/huayiyingshi/py/华谊影视.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -922,7 +922,7 @@
       "key": "Didahd",
       "name": "嘀嗒影视",
       "type": 3,
-      "api": "./didayingshi/py/Didahd.py",
+      "api": "./site_file/didayingshi/py/Didahd.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -932,7 +932,7 @@
       "key": "TVB云播",
       "name": "TVB云播",
       "type": 3,
-      "api": "./tvbyunbo/py/TVB云播.py",
+      "api": "./site_file/tvbyunbo/py/TVB云播.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -1098,7 +1098,7 @@
       "key": "红果短剧",
       "name": "红果 • 短剧",
       "type": 3,
-      "api": "./hongguoduanju/py/红果短剧.py",
+      "api": "./site_file/hongguoduanju/py/红果短剧.py",
       "genre": "shortdrama",
       "searchable": 1,
       "quickSearch": 1
@@ -1335,7 +1335,7 @@
       "key": "世界听书",
       "name": "世界 • 听书",
       "type": 3,
-      "api": "./shijietingshu/py/世界听书.py",
+      "api": "./site_file/shijietingshu/py/世界听书.py",
       "style": {
         "type": "list"
       },
@@ -1411,7 +1411,7 @@
       "key": "Ncat",
       "name": "网飞猫",
       "type": 3,
-      "api": "./wangfeimao/py/Ncat.py",
+      "api": "./site_file/wangfeimao/py/Ncat.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,

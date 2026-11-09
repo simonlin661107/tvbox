@@ -1,3 +1,5 @@
+// 相容：舊版 drpy2 未定義 $js，補上 $js.toString（回傳 "js:" + 函式本體）
+var $js = typeof $js !== "undefined" ? $js : { toString: function (f) { var s = f.toString(); return "js:" + s.slice(s.indexOf("{") + 1, s.lastIndexOf("}")); } };
 // 道长 drpy仓库 https://gitcode.net/qq_32394351/dr_py
 // 道长 drpy安卓本地搭建说明 https://code.gitlink.org.cn/api/v1/repos/hjdhnx/dr_py/blob/master/%E5%AE%89%E5%8D%93%E6%9C%AC%E5%9C%B0%E6%90%AD%E5%BB%BA%E8%AF%B4%E6%98%8E.md
 // 道长 drpy写源 模板规则说明 https://gitcode.net/supertlo/dr_py#%E6%A8%A1%E6%9D%BF%E8%A7%84%E5%88%99%E8%AF%B4%E6%98%8E

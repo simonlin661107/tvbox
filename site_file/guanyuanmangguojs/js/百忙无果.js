@@ -1,3 +1,5 @@
+// 相容：舊版 drpy2 未定義 $js，補上 $js.toString（回傳 "js:" + 函式本體）
+var $js = typeof $js !== "undefined" ? $js : { toString: function (f) { var s = f.toString(); return "js:" + s.slice(s.indexOf("{") + 1, s.lastIndexOf("}")); } };
 //小心儿悠悠//
 var rule = {
     title: '百忙无果[官]',

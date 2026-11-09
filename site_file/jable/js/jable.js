@@ -6,10 +6,10 @@
 * @Software : Samples
 * @Desc     :
 */
-import {_, load} from '../../reference_file/lib/cat.js';
-import {VodDetail, VodShort} from "../../reference_file/lib/vod.js"
-import * as Utils from "../../reference_file/lib/utils.js";
-import {Spider} from "../../reference_file/js/spider.js";
+import {_, load} from '../../../reference_file/lib/cat.js';
+import {VodDetail, VodShort} from "../../../reference_file/lib/vod.js"
+import * as Utils from "../../../reference_file/lib/utils.js";
+import {Spider} from "../../../reference_file/js/spider.js";
 
 class JableTVSpider extends Spider {
     constructor() {
