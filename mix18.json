@@ -1,12 +1,12 @@
 {
-  "spider": "./jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86",
+  "spider": "./18av/jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86",
   "sites": [
     {
       "key": "drpy_js_18AVDirect1",
       "name": "18AV",
       "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/18AVDirect.js",
+      "api": "./18av/lib/drpy2.min.js",
+      "ext": "./18av/js/18AVDirect.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -21,8 +21,8 @@
       "key": "drpy_js_CableAVSearchFix2",
       "name": "CableAV",
       "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/CableAVSearchFix2.js",
+      "api": "./cableav/lib/drpy2.min.js",
+      "ext": "./cableav/js/CableAVSearchFix2.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -37,8 +37,8 @@
       "key": "drpy_js_JableSearchFix7",
       "name": "Jable",
       "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/JableSearchFix7.js",
+      "api": "./jabletv/lib/drpy2.min.js",
+      "ext": "./jabletv/js/JableSearchFix7.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -53,8 +53,8 @@
       "key": "drpy_js_Missav",
       "name": "Missav",
       "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/Missav.js",
+      "api": "./missav/lib/drpy2.min.js",
+      "ext": "./missav/js/Missav.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -69,8 +69,8 @@
       "key": "drpy_js_PornhubSearchPlayFix1",
       "name": "Pornhub",
       "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/PornhubSearchPlayFix1.js",
+      "api": "./pornhub/lib/drpy2.min.js",
+      "ext": "./pornhub/js/PornhubSearchPlayFix1.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -85,8 +85,8 @@
       "key": "drpy_js_XVideosSearchPlayFix1",
       "name": "XVideos",
       "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/XVideosSearchPlayFix1.js",
+      "api": "./xvideos/lib/drpy2.min.js",
+      "ext": "./xvideos/js/XVideosSearchPlayFix1.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -104,7 +104,7 @@
       "api": "https://155api.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "155zy.com",
@@ -113,7 +113,7 @@
       "api": "https://155api.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "apilj.com",
@@ -131,7 +131,7 @@
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
       },
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "apilj.com",
@@ -149,7 +149,7 @@
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
       },
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "didizy.com",
@@ -158,7 +158,7 @@
       "api": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "didizy.com",
@@ -167,7 +167,7 @@
       "api": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "jkunzy.com",
@@ -176,7 +176,7 @@
       "api": "https://jkunzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "jkunzy.com",
@@ -185,7 +185,7 @@
       "api": "https://jkunzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "lajiaozy.com",
@@ -194,7 +194,7 @@
       "api": "https://apilj.com/api.php/provide/vod/at/json/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "lajiaozy.com",
@@ -203,7 +203,7 @@
       "api": "https://apilj.com/api.php/provide/vod/at/json/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "玉兔资源",
@@ -216,7 +216,7 @@
         "ratio": 1.333
       },
       "quickSearch": 1,
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "玉兔资源",
@@ -229,33 +229,33 @@
         "ratio": 1.333
       },
       "quickSearch": 1,
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "bili_open",
       "name": "哔哩貓",
       "type": 3,
-      "api": "./js/bili_open.js",
+      "api": "./sources/gao_tvbox/cat/js/bili_open.js",
       "searchable": 1,
       "changeable": 0,
       "ext": {
         "categories": "短剧#沙雕动画#沙雕穿越#沙雕",
         "cookie": ""
       },
-      "jar": "./jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe"
+      "jar": "./sources/gao_tvbox/jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe"
     },
     {
       "key": "bili_open",
       "name": "哔哩貓",
       "type": 3,
-      "api": "./js/bili_open.js",
+      "api": "./sources/qist_tvbox/cat/js/bili_open.js",
       "searchable": 1,
       "changeable": 0,
       "ext": {
         "categories": "短剧#沙雕动画#沙雕穿越#沙雕",
         "cookie": ""
       },
-      "jar": "./jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe"
+      "jar": "./sources/qist_tvbox/jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe"
     },
     {
       "key": "PikPakShare",
@@ -268,7 +268,7 @@
       "filterable": 0,
       "timeout": 60,
       "ext": "./sources/qist_tvbox/lib/token.json$$$./sources/qist_tvbox/json/pikpakclass.a1.json$$$./sources/qist_tvbox/json/pikpakclass.a1.json.db.gz",
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "PikPakShare",
@@ -281,7 +281,7 @@
       "filterable": 0,
       "timeout": 60,
       "ext": "./sources/qist_tvbox/lib/token.json$$$./sources/qist_tvbox/json/pikpakclass.a1.json$$$./sources/qist_tvbox/json/pikpakclass.a1.json.db.gz",
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "csp_BtSearch",
@@ -290,7 +290,7 @@
       "api": "csp_BtSearch",
       "timeout": 60,
       "ext": "./sources/qist_tvbox/lib/token.json$$$1",
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "csp_BtSearch",
@@ -299,7 +299,7 @@
       "api": "csp_BtSearch",
       "timeout": 60,
       "ext": "./sources/qist_tvbox/lib/token.json$$$1",
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "csp_HunHePan",
@@ -312,7 +312,7 @@
       "filterable": 0,
       "timeout": 60,
       "ext": "./sources/qist_tvbox/lib/token.json$$$null$$$1",
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "混合",
@@ -323,7 +323,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "timeout": 60,
-      "jar": "./jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
+      "jar": "./sources/qist_tvbox/jar/spider.jar;md5;a367b60be5d99c61ee013cbd0320f8e5"
     },
     {
       "key": "盘它",
@@ -337,7 +337,7 @@
         "type": "list"
       },
       "timeout": 60,
-      "jar": "./jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
+      "jar": "./sources/qist_tvbox/jar/spider.jar;md5;a367b60be5d99c61ee013cbd0320f8e5"
     },
     {
       "key": "奇优",
@@ -348,7 +348,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./sources/qist_tvbox/json/奇优.json",
-      "jar": "./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"
+      "jar": "./sources/qist_tvbox/jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"
     },
     {
       "key": "奇优",
@@ -359,7 +359,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./sources/qist_tvbox/json/奇优.json",
-      "jar": "./jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
+      "jar": "./sources/qist_tvbox/jar/spider.jar;md5;a367b60be5d99c61ee013cbd0320f8e5"
     },
     {
       "key": "奇优",
@@ -370,7 +370,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./sources/qist_tvbox/json/奇优.json",
-      "jar": "./jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
+      "jar": "./sources/tvbox_simon/xvideos/jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
     },
     {
       "key": "Panta",
@@ -382,7 +382,7 @@
       "filterable": 1,
       "timeout": 30,
       "ext": "./sources/qist_tvbox/lib/token.json$$$https://www.91panta.cn/$$$null$$$1",
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "Wogg",
@@ -394,7 +394,7 @@
       "filterable": 1,
       "timeout": 60,
       "ext": "./sources/qist_tvbox/lib/token.json$$$https://wogg.888484.xyz/$$$noproxy$$$1$$$./sources/qist_tvbox/json/wogg.json$$$WOGG",
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "玩偶",
@@ -407,7 +407,7 @@
         "type": "rect",
         "ratio": 1.309
       },
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "玩偶",
@@ -420,7 +420,7 @@
         "type": "rect",
         "ratio": 1.309
       },
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "玩偶",
@@ -433,7 +433,7 @@
         "token": "影視天下第一",
         "filter": "./sources/qist_tvbox/json/wogg.json"
       },
-      "jar": "./jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe"
+      "jar": "./sources/qist_tvbox/jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe"
     },
     {
       "key": "稀饭",
@@ -448,7 +448,7 @@
         "deviceId": "",
         "version": "119"
       },
-      "jar": "./jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
+      "jar": "./sources/qist_tvbox/jar/spider.jar;md5;a367b60be5d99c61ee013cbd0320f8e5"
     },
     {
       "key": "lzi_json",
@@ -467,7 +467,7 @@
       "api": "https://caiji.semaozy.net/inc/apijson_vod.php",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "semaozy.com",
@@ -476,7 +476,7 @@
       "api": "https://caiji.semaozy.net/inc/apijson_vod.php",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "jingpinx.com",
@@ -485,7 +485,7 @@
       "api": "https://www.jingpinx.com//api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "jingpinx.com",
@@ -494,7 +494,7 @@
       "api": "https://www.jingpinx.com//api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "laosebizy.com",
@@ -503,7 +503,7 @@
       "api": "https://apilsbzy1.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "laosebizy.com",
@@ -512,7 +512,7 @@
       "api": "https://apilsbzy1.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "lbapi9.com",
@@ -530,7 +530,7 @@
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
       },
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "lbapi9.com",
@@ -548,7 +548,7 @@
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
       },
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "lebozy.com",
@@ -557,7 +557,7 @@
       "api": "https://lbapi9.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "lebozy.com",
@@ -566,7 +566,7 @@
       "api": "https://lbapi9.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "naixxzy.com",
@@ -575,7 +575,7 @@
       "api": "https://naixxzy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "naixxzy.com",
@@ -584,7 +584,7 @@
       "api": "https://naixxzy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "senlinzy.com",
@@ -593,7 +593,7 @@
       "api": "https://slapibf.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "senlinzy.com",
@@ -602,7 +602,7 @@
       "api": "https://slapibf.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "shayuapi.com",
@@ -620,7 +620,7 @@
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
       },
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "shayuapi.com",
@@ -638,7 +638,7 @@
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
       },
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "vnzyz.com",
@@ -647,7 +647,7 @@
       "api": "https://vnzyz.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "vnzyz.com",
@@ -656,7 +656,7 @@
       "api": "https://vnzyz.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1,
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "api.11bat.com",
@@ -673,7 +673,7 @@
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
       },
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "api.11bat.com",
@@ -690,7 +690,7 @@
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
       },
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "dadiapi.com",
@@ -707,7 +707,7 @@
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
       },
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "dadiapi.com",
@@ -724,7 +724,7 @@
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
       },
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "gdlsp.com",
@@ -741,7 +741,7 @@
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
       },
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "gdlsp.com",
@@ -758,7 +758,7 @@
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
       },
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "kxgav.com",
@@ -775,7 +775,7 @@
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
       },
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "kxgav.com",
@@ -792,7 +792,7 @@
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
       },
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "msnii.com",
@@ -809,7 +809,7 @@
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
       },
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "msnii.com",
@@ -826,7 +826,7 @@
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
       },
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "xrbsp.com",
@@ -843,7 +843,7 @@
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
       },
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "xrbsp.com",
@@ -860,7 +860,7 @@
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
       },
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "18AV",
@@ -873,7 +873,7 @@
         "type": "rect",
         "ratio": 1.485
       },
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "18AV",
@@ -886,7 +886,21 @@
         "type": "rect",
         "ratio": 1.485
       },
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+    },
+    {
+      "key": "91黑料",
+      "name": "91黑料",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./sources/qist_tvbox/jar/XBPQ.jar;md5;4145467d49e0437dc43e8bbb79e3ff7d",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sources/qist_tvbox/XBPQ/91黑料.json",
+      "style": {
+        "ratio": 1.7
+      }
     },
     {
       "key": "AvTime",
@@ -895,7 +909,7 @@
       "api": "csp_AvTime",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "AvTime",
@@ -904,7 +918,7 @@
       "api": "csp_AvTime",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "Cable",
@@ -916,7 +930,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "Cable",
@@ -928,7 +942,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "Hanime",
@@ -941,7 +955,7 @@
         "type": "rect",
         "ratio": 0.68
       },
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "Hanime",
@@ -954,7 +968,7 @@
         "type": "rect",
         "ratio": 0.68
       },
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "Jable",
@@ -967,7 +981,7 @@
         "type": "rect",
         "ratio": 1.77
       },
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "Jable",
@@ -980,7 +994,7 @@
         "type": "rect",
         "ratio": 1.77
       },
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "MissAV",
@@ -996,7 +1010,7 @@
         "type": "rect",
         "ratio": 1.78
       },
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/MissAV/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "MissAV",
@@ -1011,7 +1025,7 @@
         "type": "rect",
         "ratio": 1.78
       },
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "SeHuaTang",
@@ -1028,7 +1042,7 @@
         "type": "rect",
         "ratio": 1.5
       },
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "SeHuaTang",
@@ -1045,7 +1059,7 @@
         "type": "rect",
         "ratio": 1.5
       },
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "Taohuazu",
@@ -1058,7 +1072,7 @@
       "filterable": 0,
       "timeout": 60,
       "ext": "./sources/qist_tvbox/lib/token.json",
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "Taohuazu",
@@ -1071,7 +1085,7 @@
       "filterable": 0,
       "timeout": 60,
       "ext": "./sources/qist_tvbox/lib/token.json",
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "Top888",
@@ -1080,7 +1094,7 @@
       "api": "csp_Top888",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "Top888",
@@ -1089,7 +1103,7 @@
       "api": "csp_Top888",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "Xojav",
@@ -1106,7 +1120,7 @@
         "type": "rect",
         "ratio": 1.5
       },
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "Xojav",
@@ -1123,12 +1137,12 @@
         "type": "rect",
         "ratio": 1.5
       },
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "asianx",
       "name": "🔞┃海外宅┃🔞",
-      "api": "./js/asianx.js",
+      "api": "./sources/qist_tvbox/cat/tjs/js/asianx.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -1139,7 +1153,7 @@
     {
       "key": "ciliduo",
       "name": "🔞┃磁力多BT┃🔞",
-      "api": "./js/ciliduo.js",
+      "api": "./sources/qist_tvbox/cat/tjs/js/ciliduo.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -1162,7 +1176,7 @@
       },
       "timeout": 60,
       "ext": "./sources/qist_tvbox/lib/token.json",
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "csp_JavBus",
@@ -1179,7 +1193,7 @@
       },
       "timeout": 60,
       "ext": "./sources/qist_tvbox/lib/token.json",
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "csp_JavDb",
@@ -1196,7 +1210,7 @@
       },
       "timeout": 60,
       "ext": "./sources/qist_tvbox/lib/token.json",
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "csp_JavDb",
@@ -1213,7 +1227,7 @@
       },
       "timeout": 60,
       "ext": "./sources/qist_tvbox/lib/token.json",
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "csp_Netflav",
@@ -1225,7 +1239,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "csp_Netflav",
@@ -1237,12 +1251,12 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "doll",
       "name": "🔞┃玩偶姐姐┃🔞",
-      "api": "./js/doll.js",
+      "api": "./sources/qist_tvbox/cat/tjs/js/doll.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -1254,8 +1268,8 @@
       "key": "drpy_js_18AVDirect1",
       "name": "18AV",
       "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/18AVDirect.js",
+      "api": "./sources/tvbox_simon/18av/lib/drpy2.min.js",
+      "ext": "./sources/tvbox_simon/18av/js/18AVDirect.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -1265,23 +1279,23 @@
         "type": "rect",
         "ratio": 1.485
       },
-      "jar": "./jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
+      "jar": "./sources/tvbox_simon/18av/jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
     },
     {
       "key": "drpy_js_18哈",
       "name": "影视 | 18哈[js]",
       "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/18哈.js",
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+      "api": "./sources/gao_tvbox/lib/drpy2.min.js",
+      "ext": "./sources/gao_tvbox/js/18哈.js",
+      "jar": "./sources/gao_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     },
     {
       "key": "drpy_js_18哈",
       "name": "影视 | 18哈[js]",
       "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/Missav.js",
-      "jar": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9",
+      "api": "./sources/qist_tvbox/lib/drpy2.min.js",
+      "ext": "./sources/qist_tvbox/js/Missav.js",
+      "jar": "./sources/qist_tvbox/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -1291,8 +1305,8 @@
       "key": "drpy_js_CableAVSearchFix2",
       "name": "CableAV",
       "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/CableAVSearchFix2.js",
+      "api": "./sources/tvbox_simon/cableav/lib/drpy2.min.js",
+      "ext": "./sources/tvbox_simon/cableav/js/CableAVSearchFix2.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -1302,14 +1316,14 @@
         "type": "rect",
         "ratio": 1.5
       },
-      "jar": "./jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
+      "jar": "./sources/tvbox_simon/cableav/jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
     },
     {
       "key": "drpy_js_JableSearchFix7",
       "name": "Jable",
       "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/JableSearchFix7.js",
+      "api": "./sources/tvbox_simon/jabletv/lib/drpy2.min.js",
+      "ext": "./sources/tvbox_simon/jabletv/js/JableSearchFix7.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -1319,26 +1333,26 @@
         "type": "rect",
         "ratio": 1.77
       },
-      "jar": "./jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
+      "jar": "./sources/tvbox_simon/jabletv/jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
     },
     {
       "key": "drpy_js_Missav",
       "name": "Missav",
       "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/Missav.js",
+      "api": "./sources/qist_tvbox/lib/drpy2.min.js",
+      "ext": "./sources/qist_tvbox/js/Missav.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "timeout": 30,
-      "jar": "./jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
+      "jar": "./sources/qist_tvbox/jar/pg23a94bb.jar;md5;73b12022e75e5139dc39e9690727021c"
     },
     {
       "key": "drpy_js_Missav",
       "name": "Missav",
       "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/Missav.js",
+      "api": "./sources/tvbox_simon/missav/lib/drpy2.min.js",
+      "ext": "./sources/tvbox_simon/missav/js/Missav.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -1348,14 +1362,14 @@
         "type": "rect",
         "ratio": 1.78
       },
-      "jar": "./jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
+      "jar": "./sources/tvbox_simon/missav/jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
     },
     {
       "key": "drpy_js_PornhubSearchPlayFix1",
       "name": "Pornhub",
       "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/PornhubSearchPlayFix1.js",
+      "api": "./sources/tvbox_simon/pornhub/lib/drpy2.min.js",
+      "ext": "./sources/tvbox_simon/pornhub/js/PornhubSearchPlayFix1.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -1365,14 +1379,14 @@
         "type": "rect",
         "ratio": 1.78
       },
-      "jar": "./jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
+      "jar": "./sources/tvbox_simon/pornhub/jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
     },
     {
       "key": "drpy_js_XVideosSearchPlayFix1",
       "name": "XVideos",
       "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/XVideosSearchPlayFix1.js",
+      "api": "./sources/tvbox_simon/xvideos/lib/drpy2.min.js",
+      "ext": "./sources/tvbox_simon/xvideos/js/XVideosSearchPlayFix1.js",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -1382,12 +1396,12 @@
         "type": "rect",
         "ratio": 1.78
       },
-      "jar": "./jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
+      "jar": "./sources/tvbox_simon/xvideos/jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86"
     },
     {
       "key": "hanxiucao",
       "name": "🔞┃含羞草┃🔞",
-      "api": "./js/hanxiucao.js",
+      "api": "./sources/qist_tvbox/cat/tjs/js/hanxiucao.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -1398,7 +1412,7 @@
     {
       "key": "hscangku",
       "name": "🔞┃黄色仓库┃🔞",
-      "api": "./js/hscangku.js",
+      "api": "./sources/qist_tvbox/cat/tjs/js/hscangku.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -1409,7 +1423,7 @@
     {
       "key": "jable",
       "name": "🔞┃Jable┃🔞",
-      "api": "./js/jable.js",
+      "api": "./sources/qist_tvbox/cat/tjs/js/jable.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -1420,7 +1434,7 @@
     {
       "key": "jiujiuliu",
       "name": "🔞┃九九六影视┃🔞",
-      "api": "./js/jiujiuliu.js",
+      "api": "./sources/qist_tvbox/cat/tjs/js/jiujiuliu.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -1431,7 +1445,7 @@
     {
       "key": "lovemovie",
       "name": "💕┃爱情电影网┃💕",
-      "api": "./js/lovemovie.js",
+      "api": "./sources/qist_tvbox/cat/tjs/js/lovemovie.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -1442,7 +1456,7 @@
     {
       "key": "lovemovie18",
       "name": "🔞┃爱情电影网18+┃🔞",
-      "api": "./js/lovemovie18.js",
+      "api": "./sources/qist_tvbox/cat/tjs/js/lovemovie18.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -1453,7 +1467,7 @@
     {
       "key": "nivod_18",
       "name": "🔞┃泥视频18+┃🔞",
-      "api": "./js/nivod_18.js",
+      "api": "./sources/qist_tvbox/cat/tjs/js/nivod_18.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -1464,7 +1478,7 @@
     {
       "key": "sehuatang",
       "name": "🔞┃色花堂BT┃🔞",
-      "api": "./js/sehuatang.js",
+      "api": "./sources/qist_tvbox/cat/tjs/js/sehuatang.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -1481,7 +1495,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "FbjDcUxPqpfNr0QF4QvE6sExbctTGI9OTT9b/fj1hQEfFo3ZpT7IjxyVo6ytU3boJSbS02op2WA9SGNlCJpscUJASIjSk1eTbWgFj3BY0O58XL66c3hoMFG1cCcjgoux+ibEY4c2WZ85pgVQ9BW3RV1NZ7a2+xJHJdcafyUM",
-      "jar": "./jar/fan_1.txt;md5;6c4ab3a9d232164c75534f9060506ee5"
+      "jar": "./sources/gao_tvbox/jar/fan.txt;md5;6c4ab3a9d232164c75534f9060506ee5"
     }
   ],
   "lives": [],

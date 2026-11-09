@@ -1,0 +1,26 @@
+{
+  "spider": "./jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86",
+  "wallpaper": "",
+  "sites": [
+    {
+      "key": "drpy_js_JableSearchFix7",
+      "name": "Jable",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/JableSearchFix7.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 0,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.77
+      }
+    }
+  ],
+  "lives": [],
+  "parses": [],
+  "flags": [],
+  "rules": []
+}
