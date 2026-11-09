@@ -1,0 +1,11 @@
+# 驗證曾通過但最終複驗失敗、不搬的站（原始設定檔\t原始key\t名稱）
+OK/jsm.json	drpy_js_奇珍异兽	官源 | 爱奇艺[js]
+liuhtt_gaotvbox/0821.json	lf_js_lf_live	电视 | 直播[js]
+liuhtt_gaotvbox/0821.json	暴風	暴風
+liuhtt_gaotvbox/0825.json	XBPQ_文才	文才
+liuhtt_gaotvbox/0825.json	量子	量子
+liuhtt_gaotvbox/0825.json	非凡	非凡
+liuhtt_gaotvbox/XYQ.json	360_spider	三六零 • 视频
+liuhtt_gaotvbox/js.json	drpy_js_哔哩影视	弹幕 | 哔哩影视[js]
+qist_tvbox/dianshi.json	瓜子体育	瓜子 • 体育
+qist_tvbox/dianshi.json	咖啡体育	咖啡 • 体育

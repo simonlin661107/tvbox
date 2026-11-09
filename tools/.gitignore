@@ -1,0 +1,11 @@
+__pycache__/
+*.log
+# 每次驗證產生的暫存結果（彙整後的結果放在 results_all.json）
+results.json
+results.json.tmp
+results_*.json
+!results_all.json
+plan*.json
+_one.json
+affected.json
+qu_*.js
