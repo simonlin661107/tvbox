@@ -29,9 +29,23 @@
 | 6. 連接 App | `adb forward tcp:9978 tcp:9978; adb reverse tcp:8765 tcp:8765` | |
 | 7. 驗證 | `python3 redo.py plan.json`（或 `python3 harness.py plan.json [workers]`） | 每個站都跑 首頁 → 分類 → 詳情 → 播放（含解析），並用 ffprobe 確認串流；結果寫到 `RES` |
 | 8. 搬移 | `python3 migrate.py results_all.json [--dry]` | 驗證通過的站寫進 `mix.json`，並更新 `site_file/`、`reference_file/`、`move_list.txt`；用 `--dry` 只會顯示統計，不會寫檔 |
-| 9. 檢查 | `python3 check_refs.py .. mix.json mix18.json direct.json direct18.json` | 確認所有 `./` 引用與 JS import 都存在、jar 的 md5 正確（輸出 `bad 0` 代表沒問題） |
+| 9. 檢查 | `python3 check_refs.py .. mix.json mix18.json direct.json direct18.json temp.json temp18.json` | 確認所有 `./` 引用與 JS import 都存在、jar 的 md5 正確（輸出 `bad 0` 代表沒問題） |
 
 `affected.py` 用來找出被 overlay 補檔影響、需要重新驗證的群組。
+
+## 第二輪篩選（temp.json / temp18.json）
+
+針對第一輪沒搬進 mix 的站點，只要「能取得可播放的影片連結」就搬，其他功能（搜尋、分類完整性等）不要求。
+
+1. `python3 retest.py build`：產生合成設定檔到 `/tmp/retest/ov`（全域 spider 換成 mix 的 `spider.jar`；parses/flags 合併 mix.json；
+   會當機的 jar 改用全域 spider，結果標記 `override=mixjar`）以及 `/tmp/retest/plan.json`
+2. `EXTRA_OVERLAY=/tmp/retest/ov python3 union_server.py 8765`（`EXTRA_OVERLAY` 可用 `:` 分隔多個目錄，優先順序最高）
+3. `python3 retest.py run 4`，再用 `python3 retest.py single` 把當機、App 重啟期間或並行錯誤的站逐一重測。
+   取影片的順序是 分類（最多 5 個）→ 首頁推薦 → 搜尋；ffprobe 失敗時會再檢查內容特徵（m3u8 分片、MPD BaseURL、直連檔頭）
+4. 把成人站的 gid 寫成 JSON 陣列，然後執行：
+   `TARGET=temp.json ADULT_TARGET=temp18.json ADULT_FILE=adult.json IGNORE_EXCLUDED=1 python3 migrate.py /tmp/retest/results.json [--dry]`
+
+migrate.py 的環境變數：`TARGET`（預設 mix.json）、`ADULT_TARGET`、`ADULT_FILE`（成人站 gid 清單）、`IGNORE_EXCLUDED=1`（不套用 `excluded.txt`）。
 
 ## 資料檔
 
@@ -59,3 +73,5 @@
 - 並行數開太高時，JS 站可能會出現 `RejectedExecutionException`。這是測試本身造成的，不是站點的問題。遇到時請重啟 App，再用 2 個 worker 重測。
 - 舊版 drpy2（ca81841e）沒有定義 `$js`。規則檔如果用到 `$js.toString`，要在檔頭加上相容 shim（範例見 `site_file/dongmanlumanmanjs/js/路漫漫.js` 開頭兩行）。
 - 本目錄會跟著整個 repo 一起由 GitHub Pages 公開。
+
+第二輪的結果保存在 `results_retest.json`，成人站 gid 清單在 `adult_retest.json`。

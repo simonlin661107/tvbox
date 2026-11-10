@@ -8,6 +8,11 @@
 4. 改寫站點設定與檔案內 import 路徑、校正 jar md5，輸出 mix.json、更新 direct*.json 與 move_list.txt。
 
 用法：migrate.py <results.json> [--dry]
+環境變數：
+  TARGET=temp.json         新站寫入的設定檔（預設 mix.json）
+  ADULT_TARGET=temp18.json 成人站寫入的設定檔；成人站 gid 清單放在 ADULT_FILE（JSON 陣列）
+  IGNORE_EXCLUDED=1        不套用 excluded.txt（再篩選時使用）
+結果中的 override="mixjar" 代表原 jar 會讓 App 當機，改用全域 spider（不帶站點 jar）。
 """
 import copy, hashlib, json, os, re, shutil, sys, collections, posixpath, urllib.request, urllib.parse, datetime, subprocess
 from pypinyin import lazy_pinyin
@@ -243,7 +248,7 @@ def main():
                 moved_before.add((cols[3], cols[4]))
 
     exf = os.path.join(MIG, "excluded.txt")
-    if os.path.isfile(exf):
+    if os.path.isfile(exf) and not os.environ.get("IGNORE_EXCLUDED"):
         for line in open(exf, encoding="utf-8"):
             if line.startswith("#") or not line.strip():
                 continue
@@ -261,9 +266,17 @@ def main():
                 cfg_cache[rel] = json.loads(re.sub(r"^\s*//.*$", "", t, flags=re.M))
         return cfg_cache[rel]
 
-    # 既有 mix.json（續搬時保留）
-    mix_path = os.path.join(DST, "mix.json")
-    mix = json.load(open(mix_path)) if os.path.isfile(mix_path) else {"spider": "", "sites": [], "parses": [], "flags": []}
+    target = os.environ.get("TARGET", "mix.json")
+    adult_target = os.environ.get("ADULT_TARGET")
+    adult_gids = set(map(str, json.load(open(os.environ["ADULT_FILE"])))) if os.environ.get("ADULT_FILE") else set()
+    targets = [target] + ([adult_target] if adult_target else [])
+    # 既有目標設定檔（續搬時保留）
+    mix_path = os.path.join(DST, target)
+    if os.path.isfile(mix_path):
+        mix = json.load(open(mix_path))
+    else:  # 新設定檔：parses/flags 先沿用 mix.json
+        base_cfg = json.load(open(os.path.join(DST, "mix.json"))) if os.path.isfile(os.path.join(DST, "mix.json")) else {}
+        mix = {"spider": "", "sites": [], "parses": base_cfg.get("parses", []), "flags": base_cfg.get("flags", [])}
     sdir = os.path.join(DST, SITE)
     used_slugs = {d for d in os.listdir(sdir) if os.path.isdir(os.path.join(sdir, d))} if os.path.isdir(sdir) else set()
     used_keys = {s["key"] for s in mix["sites"]}
@@ -286,6 +299,8 @@ def main():
         spider = conf.get("spider", "") or ""
         if str(site.get("api", "")).startswith("csp_") and not site.get("jar"):
             site["jar"] = spider
+        if r.get("override") == "mixjar":
+            site.pop("jar", None)
         # 遠端 jar 本地化
         jar = site.get("jar", "")
         if jar.startswith("http"):
@@ -313,6 +328,7 @@ def main():
         site["key"] = k
         base = os.path.dirname(os.path.join(SRC, it["cfg"]))
         o = Owner(f"{SITE}/{slug}", base, [site], it["cfg"])
+        o.target = adult_target if (adult_target and str(gid) in adult_gids) else target
         owners.append(o)
         new_records.append((o, it, items, r))
 
@@ -326,9 +342,9 @@ def main():
 
     # 既有 direct*.json
     existing_cfgs = {}
-    for name in ("direct.json", "direct18.json", "mix18.json"):
+    for name in ("direct.json", "direct18.json", "mix.json", "mix18.json", "temp.json", "temp18.json"):
         p = os.path.join(DST, name)
-        if not os.path.isfile(p):
+        if name == target or not os.path.isfile(p):
             continue
         d = json.load(open(p))
         existing_cfgs[name] = d
@@ -354,8 +370,8 @@ def main():
             folder = next((site_folder(t[2:]) for t in refs if t.startswith("./") and "/" in t[2:] and not t[2:].startswith(REF)), None)
             bysite.setdefault(folder or "__ref_only__", []).append(s)
         for folder, sites in bysite.items():
-            owners.append(ExistingOwner(folder, DST, sites, "mix.json"))
-    owners.append(ExistingOwner("mix.json", DST, [], "mix.json", top={"spider": mix.get("spider", ""), "parses": mix.get("parses", [])}))
+            owners.append(ExistingOwner(folder, DST, sites, target))
+    owners.append(ExistingOwner(target, DST, [], target, top={"spider": mix.get("spider", ""), "parses": mix.get("parses", [])}))
 
     for o in owners:
         o.collect()
@@ -471,10 +487,10 @@ def main():
     removes -= set(writes)
 
     # 組 mix.json
-    new_sites = [s for o in owners if not isinstance(o, ExistingOwner) for s in o.sites]
+    new_sites = [s for o in owners if not isinstance(o, ExistingOwner) and o.target == target for s in o.sites]
     mix_sites = []
     for o in owners:
-        if isinstance(o, ExistingOwner) and o.cfg_name == "mix.json":
+        if isinstance(o, ExistingOwner) and o.cfg_name == target:
             mix_sites += o.sites
     mix_sites += new_sites
     mix["sites"] = mix_sites
@@ -494,7 +510,22 @@ def main():
     # 全域 spider 用 direct.json 的 jar（與本 App 相容，drpy2 的 pdfh 等函式由它提供）；csp 站點各自帶 jar
     dtop = next((o.top for o in owners if isinstance(o, ExistingOwner) and o.folder == "direct.json"), None)
     mix["spider"] = (dtop or {}).get("spider") or (jars.most_common(1)[0][0] if jars else "")
-    mix_top = next(o for o in owners if isinstance(o, ExistingOwner) and o.folder == "mix.json")
+    # 成人站目標設定檔（附加到既有內容之後）
+    adult_out = None
+    if adult_target:
+        ap = os.path.join(DST, adult_target)
+        adult_out = existing_cfgs.pop(adult_target, None) or {"spider": mix["spider"], "sites": [], "parses": [], "flags": []}
+        aold = [s for o in owners if isinstance(o, ExistingOwner) and o.cfg_name == adult_target for s in o.sites]
+        amap = {s["key"]: s for s in aold}
+        adult_out["sites"] = [amap.get(s["key"], s) for s in adult_out.get("sites", [])] + [s for o in owners if not isinstance(o, ExistingOwner) and o.target == adult_target for s in o.sites]
+        adult_out["spider"] = mix["spider"]
+        aparses = {json.dumps(p, sort_keys=True, ensure_ascii=False): p for p in adult_out.get("parses", []) or mix.get("parses", [])}
+        for o in owners:
+            if not isinstance(o, ExistingOwner) and o.target == adult_target and o.cfg_name in parse_cfgs:
+                for p in cfg_json(o.cfg_name).get("parses", []) or []:
+                    aparses.setdefault(json.dumps(p, sort_keys=True, ensure_ascii=False), p)
+        adult_out["parses"] = list(aparses.values())
+        adult_out["flags"] = adult_out.get("flags") or mix["flags"]
 
     print(f"new sites: {len(new_sites)}, files to write: {len(writes)}, shared: {len(set(shared_dest.values()))}, removes: {len(removes)}")
     if dry:
@@ -528,6 +559,8 @@ def main():
         top["sites"] = sites_out
         json.dump(top, open(os.path.join(DST, name), "w"), ensure_ascii=False, indent=2)
     json.dump(mix, open(mix_path, "w"), ensure_ascii=False, indent=2)
+    if adult_out is not None:
+        json.dump(adult_out, open(os.path.join(DST, adult_target), "w"), ensure_ascii=False, indent=2)
     # move_list.txt
     today = datetime.date.today().isoformat()
     new_file = not os.path.isfile(ml)
@@ -537,11 +570,14 @@ def main():
             f.write("# 欄位：資料夾\tkey\t名稱\t原始設定檔(相對 TV_Box_Sources)\t原始key\ttype\tapi\t驗證結果\t搬移日期\t相同內容的其他原始來源\t設定檔\n")
         for o, it, items, r in new_records:
             s = o.sites[0]
-            verdict = "分類+播放" + ("+搜尋" if r.get("search_ok") else "") if r.get("pass_cat") else "搜尋+播放"
+            how = r.get("how") or ("category" if r.get("pass_cat") else "search")
+            verdict = {"category": "分類", "home": "首頁", "search": "搜尋"}[how] + "+播放" + ("+搜尋" if r.get("search_ok") and how != "search" else "")
+            if r.get("override") == "mixjar":
+                verdict += "（原 jar 會當機，改用全域 spider）"
             others = ",".join(f"{x['cfg']}:{x['key']}" for x in items if (x["cfg"], x["key"]) != (it["cfg"], it["key"]))
             own = any(not dest_of(o, src).startswith(REF + "/") for src in o.files)
             folder = o.folder if own else ("（僅引用 reference_file 共用檔）" if o.files else "（無引用檔，直連 CMS）")
-            f.write("\t".join([folder, s["key"], str(s.get("name")), it["cfg"], str(it["key"]), str(s.get("type")), str(it["site"].get("api")), verdict, today, others, "mix.json"]) + "\n")
+            f.write("\t".join([folder, s["key"], str(s.get("name")), it["cfg"], str(it["key"]), str(s.get("type")), str(it["site"].get("api")), verdict, today, others, o.target]) + "\n")
     print("done")
 
 

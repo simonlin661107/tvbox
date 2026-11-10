@@ -1,4 +1,4 @@
-# 已搬入 mix.json / mix18.json 的點播源紀錄（續搬時以 原始設定檔+原始key 判斷是否已搬過）
+# 已搬入 mix.json / mix18.json / temp.json / temp18.json 的點播源紀錄（續搬時以 原始設定檔+原始key 判斷是否已搬過；temp*.json 為「只要能取得可播放連結」的第二輪篩選）
 # 欄位：資料夾（site_file/ 下；只用共用檔或直連 CMS 的站以括號註明）	key	名稱	原始設定檔(相對 TV_Box_Sources)	原始key	type	api	驗證結果	搬移日期	相同內容的其他原始來源	設定檔
 site_file/kuyunxb	csp_XBiu_酷云	🍀酷云(XB)	2hacc_TVBox/h/h.json	csp_XBiu_酷云	3	csp_XBiubiu	分類+播放+搜尋	2026-11-09		mix.json
 （無引用檔，直連 CMS）	91md	🥈91md	2hacc_TVBox/h/h.json	91md	1	https://91md.me/api.php/provide/vod/from/mdm3u8/	分類+播放+搜尋	2026-11-09		mix18.json
@@ -115,3 +115,62 @@ site_file/wangfeimao	Ncat	网飞猫	qist_tvbox/dianshi.json	Ncat	3	./py/Ncat.py	
 （僅引用 reference_file 共用檔）	剧圈	🐻剧圈┃多线	qist_tvbox/fty.json	剧圈	3	csp_AppSxGuard	分類+播放+搜尋	2026-11-09		mix.json
 （僅引用 reference_file 共用檔）	奥特_2	🏝奥特┃多线	qist_tvbox/fty.json	奥特	3	csp_AueteGuard	分類+播放	2026-11-09		mix.json
 （僅引用 reference_file 共用檔）	有声小说	🎧有声┃小说	qist_tvbox/fty.json	有声小说	3	csp_YueTingGuard	分類+播放	2026-11-09		mix.json
+（僅引用 reference_file 共用檔）	MTV	明星	2hacc_TVBox/oktv.json	MTV	3	csp_Bili	首頁+播放	2026-11-10		temp.json
+（僅引用 reference_file 共用檔）	少儿教育	少儿	2hacc_TVBox/oktv.json	少儿教育	3	csp_Bili	首頁+播放	2026-11-10		temp.json
+（僅引用 reference_file 共用檔）	小学课堂	小学	2hacc_TVBox/oktv.json	小学课堂	3	csp_Bili	首頁+播放	2026-11-10		temp.json
+（僅引用 reference_file 共用檔）	初中课堂	初中	2hacc_TVBox/oktv.json	初中课堂	3	csp_Bili	首頁+播放	2026-11-10		temp.json
+（僅引用 reference_file 共用檔）	高中教育	高中	2hacc_TVBox/oktv.json	高中教育	3	csp_Bili	首頁+播放	2026-11-10		temp.json
+site_file/shanleimp4	闪雷	闪雷┃MP4	OK/jsm.json	闪雷	3	./FTY/drpy2.min.js	分類+播放+搜尋	2026-11-10		temp.json
+（僅引用 reference_file 共用檔）	MTV_2	🎧明星┃MV	OK/jsm.json	MTV	3	csp_BiliGuard	首頁+播放+搜尋	2026-11-10	qist_tvbox/0821.json:MTV,qist_tvbox/0826.json:MTV	temp.json
+（僅引用 reference_file 共用檔）	Bili	🅱哔哔合集┃弹幕	OK/jsm.json	Bili	3	csp_BiliGuard	首頁+播放+搜尋	2026-11-10	qist_tvbox/0826.json:Bili	temp.json
+（僅引用 reference_file 共用檔）	Biliych	🅱哔哔演唱会┃弹幕	OK/jsm.json	Biliych	3	csp_BiliGuard	首頁+播放+搜尋	2026-11-10	qist_tvbox/0826.json:Biliych	temp.json
+（僅引用 reference_file 共用檔）	少儿教育_2	📚少儿┃教育	OK/jsm.json	少儿教育	3	csp_BiliGuard	首頁+播放+搜尋	2026-11-10	qist_tvbox/0826.json:少儿教育	temp.json
+（僅引用 reference_file 共用檔）	小学课堂_2	📚小学┃课堂	OK/jsm.json	小学课堂	3	csp_BiliGuard	首頁+播放+搜尋	2026-11-10	qist_tvbox/0826.json:小学课堂	temp.json
+（僅引用 reference_file 共用檔）	初中课堂_2	📚初中┃课堂	OK/jsm.json	初中课堂	3	csp_BiliGuard	首頁+播放+搜尋	2026-11-10	qist_tvbox/0826.json:初中课堂	temp.json
+（僅引用 reference_file 共用檔）	高中教育_2	📚高中┃课堂	OK/jsm.json	高中教育	3	csp_BiliGuard	首頁+播放+搜尋	2026-11-10	qist_tvbox/0826.json:高中教育	temp.json
+site_file/guanyuan360js	drpy_js_360影视	官源 | 360[js]	qist_tvbox/js.json	drpy_js_360影视	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-10	OK/jsm.json:drpy_js_360影视,liuhtt_gaotvbox/0821.json:drpy_js_360影视,liuhtt_gaotvbox/js.json:drpy_js_360影视,qist_tvbox/0821.json:drpy_js_360影视,qist_tvbox/dianshi.json:drpy_js_360影视,qist_tvbox/jsm.json:drpy_js_360影视,qist_tvbox/tools/dianshi.json:drpy_js_360影视,qist_tvbox/tools/jsm.json:drpy_js_360影视	temp.json
+site_file/guanyuanaiqiyijs	drpy_js_奇珍异兽	官源 | 爱奇艺[js]	qist_tvbox/js.json	drpy_js_奇珍异兽	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-10	OK/jsm.json:drpy_js_奇珍异兽,liuhtt_gaotvbox/0821.json:drpy_js_奇珍异兽,liuhtt_gaotvbox/XYQ.json:drpy_js_奇珍异兽,liuhtt_gaotvbox/js.json:drpy_js_奇珍异兽,qist_tvbox/0821.json:drpy_js_奇珍异兽,qist_tvbox/XYQ.json:drpy_js_奇珍异兽,qist_tvbox/dianshi.json:drpy_js_奇珍异兽,qist_tvbox/jsm.json:drpy_js_奇珍异兽,qist_tvbox/tools/dianshi.json:drpy_js_奇珍异兽,qist_tvbox/tools/jsm.json:drpy_js_奇珍异兽	temp.json
+site_file/guanyuanyoukujs	drpy_js_优酷	官源 | 优酷[js]	qist_tvbox/js.json	drpy_js_优酷	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-10	OK/jsm.json:drpy_js_优酷,liuhtt_gaotvbox/0821.json:drpy_js_优酷,liuhtt_gaotvbox/XYQ.json:drpy_js_优酷,liuhtt_gaotvbox/js.json:drpy_js_优酷,qist_tvbox/0821.json:drpy_js_优酷,qist_tvbox/XYQ.json:drpy_js_优酷,qist_tvbox/dianshi.json:drpy_js_优酷,qist_tvbox/jsm.json:drpy_js_优酷,qist_tvbox/tools/dianshi.json:drpy_js_优酷,qist_tvbox/tools/jsm.json:drpy_js_优酷	temp.json
+（無引用檔，直連 CMS）	FirstAid	科普 | 急救[jar]	qist_tvbox/js.json	FirstAid	3	csp_FirstAid	分類+播放+搜尋（原 jar 會當機，改用全域 spider）	2026-11-10	liuhtt_gaotvbox/0821.json:csp_Aid,liuhtt_gaotvbox/0825.json:FirstAid,liuhtt_gaotvbox/0826.json:Aid,liuhtt_gaotvbox/js.json:FirstAid,qist_tvbox/0825.json:FirstAid,qist_tvbox/dianshi.json:急救教学,qist_tvbox/jsm.json:急救教学,qist_tvbox/xiaosa/api.json:急救教学	temp.json
+（僅引用 reference_file 共用檔）	csp_Bili	哔哩	qist_tvbox/0825.json	csp_Bili	3	csp_Bili	首頁+播放（原 jar 會當機，改用全域 spider）	2026-11-10	liuhtt_gaotvbox/0825.json:csp_Bili	temp.json
+（無引用檔，直連 CMS）	酷狗	音频 | 酷狗[jar]	qist_tvbox/js.json	酷狗	3	csp_Kugou	分類+播放（原 jar 會當機，改用全域 spider）	2026-11-10	liuhtt_gaotvbox/0825.json:酷狗,liuhtt_gaotvbox/0827.json:酷狗,liuhtt_gaotvbox/js.json:酷狗,qist_tvbox/0825.json:酷狗,qist_tvbox/0827.json:酷狗	temp.json
+（無引用檔，直連 CMS）	斗鱼js	🐟斗鱼┃直播	liuhtt_gaotvbox/0826.json	斗鱼js	3	https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js	分類+播放+搜尋	2026-11-10		temp.json
+（無引用檔，直連 CMS）	dr_兔小贝	📚儿童┃启蒙	liuhtt_gaotvbox/0826.json	dr_兔小贝	3	https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js	分類+播放+搜尋	2026-11-10		temp.json
+site_file/bili2	哔哩	哔哩	qist_tvbox/0827.json	哔哩	3	csp_Bili	首頁+播放	2026-11-10	liuhtt_gaotvbox/0827.json:哔哩	temp.json
+site_file/yingshikanlemejs	drpy_js_看了么	影视 | 看了么[js]	qist_tvbox/js.json	drpy_js_看了么	3	./lib/drpy2.min.js	首頁+播放	2026-11-10	liuhtt_gaotvbox/js.json:drpy_js_看了么,liuhtt_gaotvbox/js.json:drpy_js_看了么	temp.json
+site_file/danmubiliyingshijs	drpy_js_哔哩影视	弹幕 | 哔哩影视[js]	qist_tvbox/js.json	drpy_js_哔哩影视	3	./lib/drpy2.min.js	分類+播放	2026-11-10	liuhtt_gaotvbox/js.json:drpy_js_哔哩影视	temp.json
+site_file/wangpanalistjs	drpy_js_Alist	网盘 | Alist[js]	qist_tvbox/js.json	drpy_js_Alist	3	./lib/alist.min.js	分類+播放	2026-11-10	liuhtt_gaotvbox/js.json:drpy_js_Alist	temp.json
+site_file/zhibo	lf_js_lf_live	直播	qist_tvbox/99188.json	lf_js_lf_live	3	./lib/lf_live_min.js	分類+播放+搜尋	2026-11-10	qist_tvbox/9918.json:lf_js_lf_live	temp18.json
+site_file/sszhibo	drpy_js_ss直播	ss直播	qist_tvbox/99188.json	drpy_js_ss直播	3	./lib/drpy2.min.js	分類+播放	2026-11-10	qist_tvbox/9918.json:drpy_js_ss直播	temp18.json
+site_file/missav2	drpy_js_Missav	Missav	qist_tvbox/99188.json	drpy_js_Missav	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-10	qist_tvbox/9918.json:drpy_js_Missav	temp18.json
+（無引用檔，直連 CMS）	vnzyz.com	💕越南(直连)	qist_tvbox/99188.json	vnzyz.com	1	https://vnzyz.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-10	qist_tvbox/9918.json:vnzyz.com	temp18.json
+（無引用檔，直連 CMS）	jingpinx.com	★精品下(直连)	qist_tvbox/99188.json	jingpinx.com	1	http://www.jingpinx.com/api.php/provide/vod/?ac=list	分類+播放+搜尋	2026-11-10	qist_tvbox/9918.json:jingpinx.com	temp18.json
+site_file/hemaduanju	csp_XYQHiker_河马短剧	河马短剧	qist_tvbox/XYQ.json	csp_XYQHiker_河马短剧	3	csp_XYQHiker	分類+播放	2026-11-10		temp.json
+site_file/cilixin6v	xb6v	🧲┃磁力新6V┃🧲	qist_tvbox/cat/tjs/tv_config.json	xb6v	3	./js/xb6v.js	分類+播放	2026-11-10		temp.json
+site_file/bilibili	bilibili	🏰┃哔哩哔哩┃🏰	qist_tvbox/cat/tjs/tv_config.json	bilibili	3	./js/bilibili.js	首頁+播放+搜尋	2026-11-10		temp.json
+site_file/xinshanleimp4	新闪雷	新闪雷 • MP4	qist_tvbox/dianshi.json	新闪雷	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-10	qist_tvbox/jsm.json:新闪雷,qist_tvbox/tools/dianshi.json:新闪雷,qist_tvbox/tools/jsm.json:新闪雷	temp.json
+（僅引用 reference_file 共用檔）	闪雷_2	闪雷 • MP4	qist_tvbox/dianshi.json	闪雷	3	./lib/drpy2.min.js	分類+播放	2026-11-10	qist_tvbox/tools/dianshi.json:闪雷	temp.json
+site_file/chabeihucupfoxin	cupfox_in	茶杯狐 • cupfox.in	qist_tvbox/dianshi.json	cupfox_in	3	./lib/drpy2.min.js	分類+播放+搜尋	2026-11-10	qist_tvbox/jsm.json:cupfox_in,qist_tvbox/tools/dianshi.json:cupfox_in,qist_tvbox/tools/jsm.json:cupfox_in	temp.json
+（僅引用 reference_file 共用檔）	哔哩合集	哔哩 • 合集	qist_tvbox/dianshi.json	哔哩合集	3	csp_Bili	分類+播放+搜尋	2026-11-10	qist_tvbox/jsm.json:哔哩合集,qist_tvbox/xiaosa/api.json:哔哩合集	temp.json
+（僅引用 reference_file 共用檔）	哔哩视频	哔哩 • 视频	qist_tvbox/dianshi.json	哔哩视频	3	csp_BiliYS	分類+播放+搜尋	2026-11-10	qist_tvbox/jsm.json:哔哩视频,qist_tvbox/xiaosa/api.json:哔哩视频	temp.json
+（僅引用 reference_file 共用檔）	果果短剧	果果 • 短剧	qist_tvbox/dianshi.json	果果短剧	3	csp_XBPQ	分類+播放+搜尋	2026-11-10	qist_tvbox/jsm.json:果果短剧,qist_tvbox/xiaosa/api.json:果果短剧	temp.json
+（僅引用 reference_file 共用檔）	金牌影视	金牌 • 影视	qist_tvbox/dianshi.json	金牌影视	3	csp_Jpys	分類+播放+搜尋	2026-11-10	qist_tvbox/jsm.json:金牌影视,qist_tvbox/xiaosa/api.json:金牌影视	temp.json
+（僅引用 reference_file 共用檔）	瓜子体育	瓜子 • 体育	qist_tvbox/dianshi.json	瓜子体育	3	csp_SportsGuazi	分類+播放	2026-11-10	qist_tvbox/jsm.json:瓜子体育,qist_tvbox/xiaosa/api.json:瓜子体育	temp.json
+（僅引用 reference_file 共用檔）	咖啡体育	咖啡 • 体育	qist_tvbox/dianshi.json	咖啡体育	3	csp_SportsKafei	分類+播放	2026-11-10	qist_tvbox/jsm.json:咖啡体育,qist_tvbox/xiaosa/api.json:咖啡体育	temp.json
+（僅引用 reference_file 共用檔）	球通体育	球通 • 体育	qist_tvbox/dianshi.json	球通体育	3	csp_SportQiutong	分類+播放	2026-11-10	qist_tvbox/jsm.json:球通体育,qist_tvbox/xiaosa/api.json:球通体育	temp.json
+（僅引用 reference_file 共用檔）	哔哩哔哩相声	哔哩 • 相声	qist_tvbox/dianshi.json	哔哩哔哩相声	3	csp_Bili	首頁+播放+搜尋	2026-11-10	qist_tvbox/jsm.json:哔哩哔哩相声,qist_tvbox/xiaosa/api.json:哔哩哔哩相声	temp.json
+（僅引用 reference_file 共用檔）	哔哩哔哩小品	哔哩 • 小品	qist_tvbox/dianshi.json	哔哩哔哩小品	3	csp_Bili	分類+播放+搜尋	2026-11-10	qist_tvbox/jsm.json:哔哩哔哩小品,qist_tvbox/xiaosa/api.json:哔哩哔哩小品	temp.json
+（僅引用 reference_file 共用檔）	哔哩哔哩戏曲	哔哩 • 戏曲	qist_tvbox/dianshi.json	哔哩哔哩戏曲	3	csp_Bili	分類+播放+搜尋	2026-11-10	qist_tvbox/jsm.json:哔哩哔哩戏曲,qist_tvbox/xiaosa/api.json:哔哩哔哩戏曲	temp.json
+site_file/chuzhongketang2	初中课堂_3	初中 • 课堂	qist_tvbox/dianshi.json	初中课堂	3	csp_Bili	分類+播放+搜尋	2026-11-10	qist_tvbox/jsm.json:初中课堂,qist_tvbox/xiaosa/api.json:初中课堂	temp.json
+site_file/gaozhongketang2	高中课堂	高中 • 课堂	qist_tvbox/dianshi.json	高中课堂	3	csp_Bili	搜尋+播放	2026-11-10	qist_tvbox/jsm.json:高中课堂,qist_tvbox/xiaosa/api.json:高中课堂	temp.json
+（無引用檔，直連 CMS）	天涯采集	影视 • 天涯	qist_tvbox/dianshi.json	天涯采集	1	http://tyyszy.com/api.php/provide/vod	分類+播放	2026-11-10	qist_tvbox/jsm.json:天涯采集,qist_tvbox/tools/dianshi.json:天涯采集,qist_tvbox/tools/jsm.json:天涯采集	temp.json
+（僅引用 reference_file 共用檔）	多多	🏀多多┃回放	qist_tvbox/fty.json	多多	3	csp_DoubaoGuard	分類+播放	2026-11-10		temp.json
+（僅引用 reference_file 共用檔）	吃瓜	🏐吃瓜┃看球	qist_tvbox/fty.json	吃瓜	3	csp_LiveGzGuard	分類+播放	2026-11-10		temp.json
+（僅引用 reference_file 共用檔）	alllive	🎮一直播┃直播	qist_tvbox/fty.json	alllive	3	csp_AllliveGuard	分類+播放	2026-11-10		temp.json
+（僅引用 reference_file 共用檔）	MTV_3	🎶明星┃MV	qist_tvbox/fty.json	MTV	3	csp_BiliGuard	分類+播放+搜尋	2026-11-10		temp.json
+（僅引用 reference_file 共用檔）	Bili_2	🅱哔哔合集┃弹幕	qist_tvbox/fty.json	Bili	3	csp_BiliGuard	分類+播放+搜尋	2026-11-10		temp.json
+（僅引用 reference_file 共用檔）	Biliych_2	🅱哔哔演唱会┃弹幕	qist_tvbox/fty.json	Biliych	3	csp_BiliGuard	分類+播放+搜尋	2026-11-10		temp.json
+（僅引用 reference_file 共用檔）	少儿教育_3	📚少儿┃教育	qist_tvbox/fty.json	少儿教育	3	csp_BiliGuard	分類+播放+搜尋	2026-11-10		temp.json
+（僅引用 reference_file 共用檔）	小学课堂_3	📚小学┃课堂	qist_tvbox/fty.json	小学课堂	3	csp_BiliGuard	分類+播放+搜尋	2026-11-10		temp.json
+（僅引用 reference_file 共用檔）	初中课堂_4	📚初中┃课堂	qist_tvbox/fty.json	初中课堂	3	csp_BiliGuard	分類+播放+搜尋	2026-11-10		temp.json
+（僅引用 reference_file 共用檔）	高中教育_3	📚高中┃课堂	qist_tvbox/fty.json	高中教育	3	csp_BiliGuard	分類+播放+搜尋	2026-11-10		temp.json

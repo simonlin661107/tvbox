@@ -5,6 +5,7 @@ results.json
 results.json.tmp
 results_*.json
 !results_all.json
+!results_retest.json
 plan*.json
 _one.json
 affected.json
