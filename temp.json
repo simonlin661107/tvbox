@@ -456,7 +456,7 @@
       },
       "ext": {
         "n": "哔哩合集",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+        "cookie": "buvid3=7123CEB4-4045-B41C-89F5-D053D522FCD511263infoc; buvid4=563C0F03-432B-605E-DA33-B6E7AEF4B24811263-026111112-YxcB/wiAg6vOd8LUCwwE5g=="
       },
       "jar": "./reference_file/jar/spider.qist_tvbox.jar;md5;22f033e29be68cd8aac3280c364903f8"
     },
@@ -553,7 +553,7 @@
       "changeable": 0,
       "ext": {
         "n": "哔哩相声",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+        "cookie": "buvid3=7123CEB4-4045-B41C-89F5-D053D522FCD511263infoc; buvid4=563C0F03-432B-605E-DA33-B6E7AEF4B24811263-026111112-YxcB/wiAg6vOd8LUCwwE5g=="
       },
       "style": {
         "type": "rect",
@@ -571,7 +571,7 @@
       "changeable": 0,
       "ext": {
         "n": "哔哩小品",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+        "cookie": "buvid3=7123CEB4-4045-B41C-89F5-D053D522FCD511263infoc; buvid4=563C0F03-432B-605E-DA33-B6E7AEF4B24811263-026111112-YxcB/wiAg6vOd8LUCwwE5g=="
       },
       "style": {
         "type": "rect",
@@ -589,7 +589,7 @@
       "changeable": 0,
       "ext": {
         "n": "哔哩戏曲",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+        "cookie": "buvid3=7123CEB4-4045-B41C-89F5-D053D522FCD511263infoc; buvid4=563C0F03-432B-605E-DA33-B6E7AEF4B24811263-026111112-YxcB/wiAg6vOd8LUCwwE5g=="
       },
       "style": {
         "type": "rect",
@@ -607,7 +607,7 @@
       "changeable": 0,
       "ext": {
         "json": "./site_file/chuzhongketang2/json/CZKT.json",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+        "cookie": "buvid3=7123CEB4-4045-B41C-89F5-D053D522FCD511263infoc; buvid4=563C0F03-432B-605E-DA33-B6E7AEF4B24811263-026111112-YxcB/wiAg6vOd8LUCwwE5g=="
       },
       "style": {
         "type": "rect",
@@ -625,7 +625,7 @@
       "changeable": 0,
       "ext": {
         "json": "./site_file/gaozhongketang2/json/GZKT.json",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+        "cookie": "buvid3=7123CEB4-4045-B41C-89F5-D053D522FCD511263infoc; buvid4=563C0F03-432B-605E-DA33-B6E7AEF4B24811263-026111112-YxcB/wiAg6vOd8LUCwwE5g=="
       },
       "style": {
         "type": "rect",
